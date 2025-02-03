@@ -1,5 +1,5 @@
 import HeroSection from "../../Components/HeroSection/herosection"
-import "./home.css"
+import "./Home.css"
 
 const Home = () => {
     return(
