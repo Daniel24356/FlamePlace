@@ -1,4 +1,4 @@
-import HeaderProps from "../../Props/headerProps/headerProps"
+import HeaderProps from "../../Props/HeaderProps/HeaderProps.jsx"
 import "./header.css"
 import logo from "../../assets/logo-2.png"
 import ButtonProps from "../../Props/ButtonProps/ButtonProps"
