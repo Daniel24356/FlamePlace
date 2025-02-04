@@ -1,0 +1,18 @@
+.support-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.support-text-one{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+    color: white;
+}
+.support-text-two{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(163, 163, 163);
+}

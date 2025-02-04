@@ -1,0 +1,35 @@
+.book-now{
+    width: 92.885px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(28, 28, 28);
+    background-color: white;
+}
+.room-suites{
+    width: 190px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+.read-more{
+    width: 130px;
+    height: 33px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(193, 155, 118);
+    margin-top: 15px;
+}
+.suscribe{
+    width: 149.99px;
+    height: 41px;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(193, 155, 119);
+    border: none;
+}

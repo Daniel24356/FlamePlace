@@ -1,0 +1,77 @@
+.relax-sec{
+    margin: 130px 45px;
+}
+.relax-div{
+    display: flex;
+    gap: 110px;
+}
+.relax-inner{
+    width: 415px;
+    height: 555.49px;
+    background-image: url(../../assets/img-26.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.relax-suite{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 50px 0;
+     width: 168px;
+     height: 168px;
+     background: rgb(189,152,116);
+     position: absolute;
+     bottom: -20px;
+     left: -20px;
+}
+.relax-suite h1{
+    font-size: 55px;
+    font-weight: 400;
+    color: white;
+}
+.relax-suite p{
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+}
+.hotel-txt{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: rgb(92, 92, 92);
+}
+.relax-our h1{
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 96px;
+    font-family: Gilda Display;
+}
+.text-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.profile-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-box img{
+    width: 54.4896px;
+    height: 54.4896px;
+    border-radius: 50%;
+}
+.profile-sign{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+.sign-box img{
+    height: 47.71px;
+    width: 180.74px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Hind:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.hero-sec{
+    background-image: url(../../assets/francehotel.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 13, 13, 0.5);
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+.checkprop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.hero-check{
+    width: 630px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+}
+.check-available{
+    width: 210px;
+    height: 138px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.check-available p{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 21.6px;
+}
+/* .check-available h1{
+
+} */
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.hero-div p{
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.hero-div div{
+    margin-top: 40px;
+}
+
+.hero-div div h1{
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    font-family: Gilda Display;
+    line-height: 70px;
+    letter-spacing: 1px;
+}

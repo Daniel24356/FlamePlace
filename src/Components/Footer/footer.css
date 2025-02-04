@@ -1,0 +1,55 @@
+.footer{
+
+}
+.google-map{
+    width: 631.33px;
+    height: 400px;
+    /* border: 1px solid gainsboro; */
+}
+.footer-inner{
+    display: flex;
+}
+.footer-down{
+    padding: 70px 30px;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: space-between;
+}
+.foot-down-div{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.phone-number{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.email-input-div{
+    width: 229.99px;
+    height: 41px;
+    background-color: rgb(21, 21, 22);
+    padding: 10px 25px;
+}
+.email-input-div input{
+    background-color: transparent;
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+.email-input-div input::placeholder{
+    color: rgb(163, 163, 163);
+    font-size: 14px;
+}
+.input-btn-div{
+    display: flex;
+    gap: 10px;
+}
+.social-icons{
+    font-size: 23px;
+    color: white;
+}
+.social-icons-div{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,54 @@
+.stayTuned-sec{
+   height: 1232.36px;
+   background-color: rgb(249, 249, 249);
+   padding: 130px 30px;
+}
+.stayTuned-text-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.stay-hotel{
+    color: rgb(92, 92, 92);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.stayTuned-text-div h1{
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+    margin-top: 20px;
+    color: rgb(28, 28, 28);
+}
+.stayTuned-text-div div{
+    margin-top: 22px;
+}
+.stayTuned-text-div div p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: rgb(92, 92, 92);
+}
+.tuned-div{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.tuned-me{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.tune-imgs{
+    width: 379px;
+    height: 185.385px;
+}
+.tune-img{
+    width: 379px;
+    height: 232.25px;
+}

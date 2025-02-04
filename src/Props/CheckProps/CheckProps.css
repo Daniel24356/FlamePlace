@@ -1,0 +1,39 @@
+.check-innerdiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.check-me{
+    width: 187.979px;
+    padding: 0px 35px;
+    padding-left: 50px;
+    border-right: 1px solid gainsboro;
+}
+.checks-me{
+    width: 187.979px;
+    padding: 0px 35px;
+    padding-left: 50px;
+    /* border-right: 1px solid gainsboro; */
+}
+.check-txt{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgb(92, 92, 92);
+}
+.date-txt{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+}
+.month-txt{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.month-txts{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,50 @@
+.stayWalk-div{
+    background-image: url(../../assets/resort3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 428.219px;
+    width: 379.958px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+.stayWalk-divs{
+    background-image: url(../../assets/resort3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 330.146px;
+    width: 379.958px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+.stayWalk-div p{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 4px;
+}
+.stayWalk-div h2{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+    color: white;
+    margin-top: 10px;
+}
+.stayWalk-divs p{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 4px;
+}
+.stayWalk-divs h2{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+    color: white;
+    margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(28,28,29);
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.header-mid{
+    display: flex;
+    gap: 45px;
+}
+.header img{
+    width: 120px;
+    height: 60.29px;
+    object-fit: contain;
+}
+.header-mid{
+    display: flex;
+}

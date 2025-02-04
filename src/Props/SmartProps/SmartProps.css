@@ -1,0 +1,26 @@
+.smartProps{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.smartProps img{
+    width: 67.402px;
+    height: 67.402px;
+}
+.smartProps div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.smartProps div h3{
+     font-size: 20px;
+     font-weight: 700;
+     font-family: Gilda Display;
+     letter-spacing: 1px;
+}
+.smartProps div p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color:rgb(92, 92, 92);
+}

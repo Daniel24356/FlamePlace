@@ -1,0 +1,68 @@
+.topHeader-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 3px 30px;
+}
+.topHeader-left{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.topHeader-left div{
+    display: flex;
+    gap: 5px;
+    color:rgb(92, 92, 92);
+}
+.topHeader-left p{
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    font-weight: 400;
+}
+.topHeader-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.topHeader-right p{
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    font-weight: 400;
+}
+.topHeader-acc{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 154.552px;
+    height: 47px;
+    background-color: rgb(193, 155, 118);
+    padding: 10px 20px;
+}
+.topHeader-acc div p{
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 19px;
+    color: white;
+}
+.topHeader-acc img{
+    width: 30px;
+    height: 30px;
+}
+.icon-divs{
+    position: relative;
+}
+.envelope-icons{
+    font-size: 20px;
+    color:rgb(92, 92, 92);
+}
+.num-div{
+    background-color: rgb(193, 155, 118);
+    padding: 1px 4px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
