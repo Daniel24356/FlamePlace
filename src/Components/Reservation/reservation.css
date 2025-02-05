@@ -3,3 +3,8 @@
     gap: 10px;
     margin: 70px 0px;
 }
+@media (max-width: 430px) {
+  .reservation-sec{
+    flex-direction: column;
+  }
+}

@@ -3,7 +3,7 @@ import "./header.css"
 import logo from "../../assets/logo-2.png"
 import ButtonProps from "../../Props/ButtonProps/ButtonProps"
 import TopHeader from "../TopHeader/TopHeader"
-
+import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {
     return(
@@ -23,8 +23,13 @@ const Header = () => {
               <HeaderProps label="News" color="gray"/>
               <HeaderProps label="Contact" color="gray"/>
             </div>
+            <div className="book-menu">
             <div>
                <ButtonProps label="Book Now" color="book-now" />
+            </div>
+            <div className="menu">
+              <IoMdMenu/>
+            </div>
             </div>
             </div>
          </nav>

@@ -23,3 +23,21 @@
 .header-mid{
     display: flex;
 }
+.menu{
+    display: none;
+}
+@media (max-width: 871px) {
+    .header-mid{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        font-size: 30px;
+        color: white;
+    }
+    .book-menu{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+ }

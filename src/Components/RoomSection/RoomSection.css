@@ -6,3 +6,38 @@
     /* margin: auto; */
     padding: 0px 70px;
 }
+@media (max-width: 1100px) {
+     .room-sec{
+        grid-template-columns: repeat(2,1fr);
+        /* column-gap: 0px; */
+        padding: 0px 150px;
+     }
+  }
+
+  @media (max-width: 1000px) {
+    .room-sec{
+       padding: 0px 120px;
+    }
+ }
+ @media (max-width: 950px) {
+    .room-sec{
+       padding: 0px 100px;
+    }
+ }
+ @media (max-width: 910px) {
+    .room-sec{
+       padding: 0px 70px;
+    }
+ }
+ @media (max-width: 825px) {
+    .room-sec{
+       padding: 0px 100px;
+       grid-template-columns: repeat(1, 1fr);
+    }
+ }
+
+ @media (max-width: 430px) {
+   .room-sec{
+      padding: 0px 25px;
+   }
+}

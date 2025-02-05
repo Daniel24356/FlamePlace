@@ -76,3 +76,14 @@
     line-height: 70px;
     letter-spacing: 1px;
 }
+@media (max-width: 784px) {
+     .hero-check{
+        width: 400px;
+     }
+  }
+  @media (max-width: 430px) {
+    .checkprop{
+        display: none;
+    }
+ }
+ 

@@ -3,3 +3,14 @@
     gap: 70px;
     padding: 100px 50px;
 }
+@media (max-width: 914px) {
+    .smart-sec{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+ }
+ @media (max-width: 430px) {
+    .smart-sec{
+        grid-template-columns: repeat(1, 1fr);
+    }
+ }

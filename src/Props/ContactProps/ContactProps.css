@@ -55,3 +55,11 @@
     letter-spacing: 1px;
     line-height: 28px;
 }
+@media (max-width: 430px) {
+   .contact-div{
+    width: 431px;
+   }
+   .contact-divs{
+    width: 431px;
+   }
+ }

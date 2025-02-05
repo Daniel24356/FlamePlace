@@ -68,3 +68,14 @@
     font-weight: 400;
     color: white;
 }
+@media (max-width: 825px) {
+     .roomprops-div{
+        width: 600px;
+     }
+ }
+
+ @media (max-width: 430px) {
+    .roomprops-div{
+        width: 380px;
+    }
+ }

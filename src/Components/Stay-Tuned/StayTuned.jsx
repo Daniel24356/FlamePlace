@@ -20,14 +20,22 @@ const StayTuned = () => {
             <div className="tuned-me">
                 <StayAround first="New Website" imgStyle="imagefirst"/>
                 <img className="tune-imgs" src={resort} alt="" />
+                <div className="tune-display">
+                <StayWalk first="Relax Zone" color="stayWalk-div"  />
+                </div>
             </div>
             <div className="tuned-me">
                 <img className="tune-img" src={resort} alt="" />
             <StayAround first="New Website" imgStyle="imagesecond"/>
+            <div className="tune-display">
+                <StayWalk first="Relax Zone" color="stayWalk-div"  />
+                </div>
             </div>
             <div className="tuned-me">
+                <div className="tuned-now">
                 <StayWalk first="Relax Zone" color="stayWalk-div"  />
                 <StayWalk first="Daily Walk" color="stayWalk-divs" />
+                </div>
             </div>
         </div>
         </section>

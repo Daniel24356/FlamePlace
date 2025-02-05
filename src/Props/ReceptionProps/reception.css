@@ -43,3 +43,15 @@
     letter-spacing: 1px;
     line-height: 28px;
 }
+@media (max-width: 430px) {
+    .reception{
+        width: 340px;
+        height: 260px;
+        margin-left: 60px;
+    }
+    .receptionImg{
+        width: 60px;
+        height: 60px;
+        margin-left: -40px;
+    }
+}
