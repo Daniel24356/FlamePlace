@@ -55,11 +55,23 @@
     letter-spacing: 1px;
     line-height: 28px;
 }
+
+@media (max-width: 814px) {
+    .contact-div{
+        width: 100%;
+        height: 500px;
+     }
+     .contact-divs{
+        width: 100%;
+        height: 500px;
+     }
+}
+
 @media (max-width: 430px) {
-   .contact-div{
+   /* .contact-div{
     width: 431px;
    }
    .contact-divs{
     width: 431px;
-   }
+   } */
  }

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./reception.css"
-import img from "../../assets/img-2.png"
+import img from "../../assets/IMG_9710.jpg"
+
 
 const Reception = ({first}) => {
   return (

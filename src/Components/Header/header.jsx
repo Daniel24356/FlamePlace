@@ -24,7 +24,7 @@ const Header = () => {
               <HeaderProps label="Contact" color="gray"/>
             </div>
             <div className="book-menu">
-            <div>
+            <div className="button-head">
                <ButtonProps label="Book Now" color="book-now" />
             </div>
             <div className="menu">

@@ -41,3 +41,14 @@
         gap: 40px;
     }
  }
+
+ @media (max-width: 534px) {
+    .header{
+        padding: 0px 0px;
+        padding-right: 30px;
+    }
+    .button-head{
+        display: none;
+    }
+ }
+ 

@@ -1,7 +1,7 @@
 import StayAround from "../../Props/StayAround/stayAround"
 import StayWalk from "../../Props/StayWalk/stayWalk"
 import "./StayTuned.css"
-import resort from "../../assets/resort1.jpg"
+import resort from "../../assets/IMG_9715.jpg"
 
 const StayTuned = () => {
     return(

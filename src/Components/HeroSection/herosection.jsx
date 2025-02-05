@@ -6,7 +6,6 @@ import { IoIosArrowUp } from "react-icons/io";
 const HeroSection = () => {
     return(
         <>
-       
         <section className="hero-sec">
         <div class="overlay"></div>
         <div className="hero-content">

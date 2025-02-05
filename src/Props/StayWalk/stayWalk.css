@@ -1,5 +1,5 @@
 .stayWalk-div{
-    background-image: url(../../assets/resort3.jpg);
+    background-image: url(../../assets/IMG_9691.jpg);
     background-size: cover;
     background-position: center;
     height: 428.219px;
@@ -10,7 +10,7 @@
     padding: 40px 30px;
 }
 .stayWalk-divs{
-    background-image: url(../../assets/resort3.jpg);
+    background-image: url(../../assets/IMG_9691.jpg);
     background-size: cover;
     background-position: center;
     height: 330.146px;
@@ -48,3 +48,53 @@
     color: white;
     margin-top: 10px;
 }
+@media (max-width: 1188px) {
+    .stayWalk-div{
+      width: 300px;
+    }
+    .stayWalk-divs{
+        width: 300px;
+    }
+   }
+ 
+   @media (max-width: 1134px) {
+    .stayWalk-div{
+        width: 379.9px;
+    }
+   }
+
+@media (max-width: 817px) {
+   .stayWalk-div{
+     width: 600px;
+   }
+  }
+
+  @media (max-width: 682px) {
+     .stayWalk-div{
+        width: 550px;
+     }
+  }
+
+  @media (max-width: 628px) {
+    .stayWalk-div{
+       width: 500px;
+    }
+ }
+
+ @media (max-width: 571px) {
+    .stayWalk-div{
+       width: 450px;
+    }
+ }
+
+ @media (max-width: 446px) {
+    .stayWalk-div{
+       width: 400px;
+    }
+ }
+
+ @media (max-width: 415px) {
+    .stayWalk-div{
+       width: 350px;
+    }
+ }

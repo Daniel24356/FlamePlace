@@ -3,6 +3,44 @@
     gap: 10px;
     margin: 70px 0px;
 }
+
+@media (max-width: 1032px) {
+   .reservation-sec{
+    flex-direction: column;
+   }
+}
+
+@media (max-width: 665px) {
+  .reservation-sec{
+    margin: 20px 0px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 628px) {
+  .reservation-sec{
+    margin: 20px 0px;
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 571px) {
+  .reservation-sec{
+    margin: 20px 0px;
+    margin-bottom: 120px;
+    gap: 80px;
+  }
+}
+
+/* @media (max-width: 446px) {
+  .reservation-sec{
+    margin: 20px 0px;
+    margin-bottom: 120px;
+    gap: 80px;
+  }
+} */
+
+
 @media (max-width: 430px) {
   .reservation-sec{
     flex-direction: column;

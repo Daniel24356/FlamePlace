@@ -1,5 +1,5 @@
 import ButtonProps from "../ButtonProps/ButtonProps"
-import blog from "../../assets/blog-1.jpg"
+import blog from "../../assets/IMG_9696.jpg"
 import "./stayAround.css"
 
 const StayAround = ({first, imgStyle}) => {
