@@ -112,6 +112,12 @@
    }
 }
 
+@media (max-width: 451px) {
+   .room-sec{
+      padding: 130px 12px;
+   }
+}
+
  @media (max-width: 430px) {
    .room-sec{
       padding: 0px 23px;

@@ -92,7 +92,21 @@
     }
   }
 
-  @media (max-width: 438px) {
+  @media (max-width: 500px) {
+    .imagefirst{
+        width: 440px;
+        height: 320px;
+    }   
+    .imagesecond{
+        width: 440px;
+        height: 320px;
+    }  
+    .stayAround-div{
+        width: 440px;
+    }
+  }
+
+  @media (max-width: 446px) {
     .imagefirst{
         width: 400px;
         height: 320px;
@@ -105,6 +119,20 @@
         width: 400px;
     }
   }
+
+  /* @media (max-width: 438px) {
+    .imagefirst{
+        width: 400px;
+        height: 320px;
+    }   
+    .imagesecond{
+        width: 400px;
+        height: 320px;
+    }  
+    .stayAround-div{
+        width: 400px;
+    }
+  } */
 
   @media (max-width: 415px) {
     .imagefirst{

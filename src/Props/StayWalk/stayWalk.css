@@ -87,6 +87,12 @@
     }
  }
 
+ @media (max-width: 500px) {
+   .stayWalk-div{
+      width: 440px;
+   }
+}
+
  @media (max-width: 446px) {
     .stayWalk-div{
        width: 400px;

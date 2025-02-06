@@ -219,11 +219,27 @@
     }
   }
 
+  @media (max-width: 500px) {
+    .tune-img{
+        width: 440px;
+    }
+    .tune-imgs{
+        width: 440px;
+    }
+  }
+
   @media (max-width: 469px) {
     .stayTuned-sec{
         padding: 130px 10px;
     }
   }
+
+  @media (max-width: 451px) {
+    .stayTuned-sec{
+        padding: 130px 5px;
+    }
+  }
+ 
 
   @media (max-width: 446px) {
     .stayTuned-sec{

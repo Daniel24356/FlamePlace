@@ -175,6 +175,17 @@
     }
 }
 
+@media (max-width: 458px) {
+    .relax-inner{
+        width: 438px;
+    }
+ }
+ @media (max-width: 451px) {
+    .relax-inner{
+        width: 430px;
+    }
+ }
+
 @media (max-width: 446px) {
     .relax-inner{
         width: 400px;
