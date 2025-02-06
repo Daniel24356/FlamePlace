@@ -20,6 +20,9 @@
     height: 60.29px;
     object-fit: contain;
 }
+.home-link{
+    text-decoration: none;
+}
 .header-mid{
     display: flex;
 }

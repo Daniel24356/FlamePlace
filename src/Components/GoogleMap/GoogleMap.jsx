@@ -11,7 +11,7 @@ const mapContainerStyle = {
 
 const GoogleMapComponent = () => {
 
-  const address = "";
+  const address = "FAME'S PLACE  Castle of Comfort 19 Eze Ihunwo Eze Ogbonda street, off Circular road, woji, PH, Rivers State, Nigeria";
   
   const [location, setLocation] = useState({ lat: 37.7749, lng: -122.4194 });
 

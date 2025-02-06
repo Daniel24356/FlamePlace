@@ -4,6 +4,7 @@ import logo from "../../assets/logo-2.png"
 import ButtonProps from "../../Props/ButtonProps/ButtonProps"
 import TopHeader from "../TopHeader/TopHeader"
 import { IoMdMenu } from "react-icons/io";
+import { Link } from "react-router-dom"
 
 const Header = () => {
     return(
@@ -14,9 +15,9 @@ const Header = () => {
                 <img src={logo} alt="" />
             </div>
             <div className="header-right">
-            <div className="header-mid">
+            <div className="header-mid">  
               <HeaderProps label="Home" color="gray"/>
-              <HeaderProps label="Rooms" color="gray"/>
+              <Link to='/room' className="home-link"> <HeaderProps label="Rooms" color="gray"/></Link>
               <HeaderProps label="About" color="gray"/>
               <HeaderProps label="Shop" color="gray"/>
               <HeaderProps label="Pages" color="gray"/>

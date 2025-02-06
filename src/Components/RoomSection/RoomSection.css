@@ -114,6 +114,12 @@
 
  @media (max-width: 430px) {
    .room-sec{
-      padding: 0px 25px;
+      padding: 0px 23px;
+   }
+}
+
+@media (max-width: 415px) {
+   .room-sec{
+      padding: 0px 15px;
    }
 }

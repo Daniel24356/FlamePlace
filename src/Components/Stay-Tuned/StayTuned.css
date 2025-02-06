@@ -238,18 +238,16 @@
     }
   }
 
-
-  
   @media (max-width: 430px) {
     .stayTuned-sec{
         height: 3000px;
-        padding: 130px 25px;
+        padding: 130px 12px;
     }
   }
 
   @media (max-width: 415px) {
     .stayTuned-sec{
-        padding: 130px 38px;
+        padding: 130px 30px;
         /* width: 100%; */
     }
     .tune-img{
