@@ -15,7 +15,7 @@
      }
  }
 
- @media (max-width: 468px) {
+ @media (max-width: 470px) {
     .smart-sec{
        grid-template-columns: repeat(2, 1fr);
        padding: 100px 10px;

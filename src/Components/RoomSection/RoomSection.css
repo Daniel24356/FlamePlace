@@ -106,9 +106,9 @@
    }
 }
 
-@media (max-width: 469px) {
+@media (max-width: 470px) {
    .room-sec{
-      padding: 130px 20px;
+      padding: 130px 12px;
    }
 }
 

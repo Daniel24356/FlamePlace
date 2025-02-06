@@ -166,12 +166,12 @@
   }
 
 
-  @media (max-width: 469px) {
+  @media (max-width: 470px) {
     .reception{
        padding: 0px 30px;
        width: 450px;
        flex-direction: column;
-       margin-left: 7px;
+       margin-left: 12px;
     }
   }
 
