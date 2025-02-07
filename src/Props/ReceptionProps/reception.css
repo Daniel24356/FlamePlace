@@ -221,3 +221,16 @@
         /* margin-left: -10px; */
     }
 }
+
+@media (max-width: 400px) {
+    .reception{
+        width: 310px;
+        height: 260px;
+        margin-left: 36px;
+        padding: 50px 30px;
+    }
+    .receptionImg{
+        width: 60px;
+        height: 60px;
+    }
+}

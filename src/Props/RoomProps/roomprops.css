@@ -129,3 +129,10 @@
         width: 380px;
     }
  }
+
+ @media (max-width: 415px) {
+    .roomprops-div{
+        width: 340px;
+    }
+ }
+

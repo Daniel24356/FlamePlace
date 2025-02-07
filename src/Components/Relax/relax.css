@@ -205,21 +205,6 @@
 
 } */
 
-@media (max-width: 415px) {
-    .relax-inner{
-        width: 340px;
-    }
-    .relax-sec{
-       margin: 130px 15px;
-    }
-    .relax-suite{
-        left: -5px;
-    }
-    .sign-box img{
-        width: 100px;
-    }
-}
-
  @media (max-width: 430px) {
     .relax-sec{
         margin: 130px 15px;
@@ -238,3 +223,33 @@
         object-fit: contain;
      }
  }
+
+ @media (max-width: 415px) {
+    .relax-inner{
+        width: 340px;
+    }
+    .relax-sec{
+       margin: 130px 15px;
+    }
+    .relax-suite{
+        left: -5px;
+    }
+    .sign-box img{
+        width: 100px;
+    }
+}
+
+ /* @media (max-width: 385px) {
+    .relax-inner{
+        width: 300px;
+    }
+    .relax-sec{
+       margin: 130px 15px;
+    }
+    .relax-suite{
+        left: -5px;
+    }
+    .sign-box img{
+        width: 100px;
+    }
+} */
