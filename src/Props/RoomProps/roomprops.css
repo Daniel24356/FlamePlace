@@ -133,14 +133,59 @@
      .roomprops-div{
         width: 320px;
      }
+     .roompropss-div{
+        width: 320px;
+     }
+     .roompropsss-div{
+        width: 320px;
+     }
+     .roompropssss-div{
+        width: 320px;
+     }
+     .roompropsssss-div{
+        width: 320px;
+     }
+     .roompropssssss-div{
+        width: 320px;
+     }
  }
  @media (max-width: 1100px) {
     .roomprops-div{
         width: 400px;
      }
+     .roompropss-div{
+        width: 400px;
+     }
+     .roompropsss-div{
+        width: 400px;
+     }
+     .roompropssss-div{
+        width: 400px;
+     }
+     .roompropsssss-div{
+        width: 400px;
+     }
+     .roompropssssss-div{
+        width: 400px;
+     }
 }
 @media (max-width: 936px) {
     .roomprops-div{
+        width: 350px;
+     }
+     .roompropss-div{
+        width: 350px;
+     }
+     .roompropsss-div{
+        width: 350px;
+     }
+     .roompropssss-div{
+        width: 350px;
+     }
+     .roompropsssss-div{
+        width: 350px;
+     }
+     .roompropssssss-div{
         width: 350px;
      }
 }
@@ -149,10 +194,52 @@
         width: 600px;
         height: 350px;
      }
+     .roompropss-div{
+        width: 600px;
+        height: 350px;
+     }
+     .roompropsss-div{
+        width: 600px;
+        height: 350px;
+     }
+     .roompropssss-div{
+        width: 600px;
+        height: 350px;
+     }
+     .roompropsssss-div{
+        width: 600px;
+        height: 350px;
+     }
+     .roompropssssss-div{
+        width: 600px;
+        height: 350px;
+     }
+     
+     
  }
 
  @media (max-width: 682px) {
     .roomprops-div{
+        width: 570px;
+        height: 350px;
+     }
+     .roompropss-div{
+        width: 570px;
+        height: 350px;
+     }
+     .roompropsss-div{
+        width: 570px;
+        height: 350px;
+     }
+     .roompropssss-div{
+        width: 570px;
+        height: 350px;
+     }
+     .roompropsssss-div{
+        width: 570px;
+        height: 350px;
+     }
+     .roompropssssss-div{
         width: 570px;
         height: 350px;
      }
@@ -162,18 +249,63 @@
      .roomprops-div{
         width: 500px;
      }
+     .roompropss-div{
+        width: 500px;
+     }
+     .roompropsss-div{
+        width: 500px;
+     }
+     .roompropssss-div{
+        width: 500px;
+     }
+     .roompropsssss-div{
+        width: 500px;
+     }
+     .roompropssssss-div{
+        width: 500px;
+     }
   }
  
   @media (max-width: 571px) {
     .roomprops-div{
        width: 450px;
     }
+    .roompropss-div{
+        width: 450px;
+     }
+     .roompropsss-div{
+        width: 450px;
+     }
+     .roompropssss-div{
+        width: 450px;
+     }
+     .roompropsssss-div{
+        width: 450px;
+     }
+     .roompropssssss-div{
+        width: 450px;
+     }
  }
 
  @media (max-width: 468px) {
     .roomprops-div{
        width: 430px;
     }
+    .roompropss-div{
+        width: 430px;
+     }
+     .roompropsss-div{
+        width: 430px;
+     }
+     .roompropssss-div{
+        width: 430px;
+     }
+     .roompropsssss-div{
+        width: 430px;
+     }
+     .roompropssssss-div{
+        width: 430px;
+     }
  }
 
 
@@ -181,11 +313,42 @@
     .roomprops-div{
        width: 400px;
     }
+    .roompropss-div{
+        width: 400px;
+     }
+     .roompropsss-div{
+        width: 400px;
+     }
+     .roompropssss-div{
+        width: 400px;
+     }
+     .roompropsssss-div{
+        width: 400px;
+     }
+     .roompropssssss-div{
+        width: 400px;
+     }
+     
  }
 
 
  @media (max-width: 430px) {
     .roomprops-div{
+        width: 380px;
+    }
+    .roompropss-div{
+        width: 380px;
+    }
+    .roompropsss-div{
+        width: 380px;
+    }
+    .roompropssss-div{
+        width: 380px;
+    }
+    .roompropsssss-div{
+        width: 380px;
+    }
+    .roompropssssss-div{
         width: 380px;
     }
  }
@@ -194,10 +357,40 @@
     .roomprops-div{
         width: 340px;
     }
+    .roompropss-div{
+        width: 340px;
+    }
+    .roompropsss-div{
+        width: 340px;
+    }
+    .roompropssss-div{
+        width: 340px;
+    }
+    .roompropsssss-div{
+        width: 340px;
+    }
+    .roompropssssss-div{
+        width: 340px;
+    }
  }
 
  @media (max-width: 385px) {
     .roomprops-div{
+        width: 320px;
+    }
+    .roompropss-div{
+        width: 320px;
+    }
+    .roompropsss-div{
+        width: 320px;
+    }
+    .roompropssss-div{
+        width: 320px;
+    }
+    .roompropsssss-div{
+        width: 320px;
+    }
+    .roompropssssss-div{
         width: 320px;
     }
  }
