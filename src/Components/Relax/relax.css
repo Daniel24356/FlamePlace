@@ -8,9 +8,10 @@
 .relax-inner{
     width: 415px;
     height: 555.49px;
-    background-image: url(../../assets/IMG_9734.jpg);
+    background-image: url(../../assets/IMG_9725.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 .relax-suite{
@@ -244,7 +245,7 @@
         width: 300px;
     }
     .relax-sec{
-       margin: 130px 15px;
+       margin: 130px 25px;
     }
     .relax-suite{
         left: -5px;

@@ -10,6 +10,66 @@
     justify-content: end;
     padding: 20px 30px;
 }
+.roompropss-div{
+    width: 350.958px;
+    height: 227.573px;
+    background-image: url(../../assets/IMG_9638.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px 30px;
+}
+.roompropsss-div{
+    width: 350.958px;
+    height: 227.573px;
+    background-image: url(../../assets/IMG_9682.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px 30px;
+}
+.roompropssss-div{
+    width: 350.958px;
+    height: 227.573px;
+    background-image: url(../../assets/IMG_9664.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px 30px;
+}
+.roompropsssss-div{
+    width: 350.958px;
+    height: 227.573px;
+    background-image: url(../../assets/IMG_9599.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px 30px;
+}
+.roompropssssss-div{
+    width: 350.958px;
+    height: 227.573px;
+    background-image: url(../../assets/IMG_9603.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px 30px;
+}
 .overlays{
     position: absolute;
     top: 0;

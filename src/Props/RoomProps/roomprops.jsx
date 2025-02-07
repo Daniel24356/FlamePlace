@@ -1,10 +1,11 @@
 import "./roomprops.css"
 
-const RoomsProps = ({first, second, third, fourth, color = 'primary'}) => {
+const RoomsProps = ({first, second, third, fourth, imgColor, color = 'primary'}) => {
     const btnStyle = `${color}`;
+    const divStyle = `${imgColor}`
     return(
         <>
-          <div className="roomprops-div">
+          <div className={divStyle}>
             <div className="overlays"></div>
             <div className={btnStyle}>
                 <p>{first}</p>
