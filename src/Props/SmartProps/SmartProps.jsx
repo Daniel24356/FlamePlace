@@ -1,11 +1,12 @@
 import "./SmartProps.css"
-import key from "../../assets/key-img.png"
 
-const SmartProps = ({first}) => {
+
+const SmartProps = ({first, color, img}) => {
+    const btnStyle = `${color}`;
     return(
         <>
-        <div className="smartProps">
-            <img src={key} alt="" />
+        <div className={btnStyle}>
+            <img src={img} alt="" />
             <div>
                 <h3>{first}</h3>
                 <p>Lorem ipsum dolor</p>

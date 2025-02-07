@@ -1,37 +1,37 @@
-import { IoIosArrowDown } from "react-icons/io"
-import CheckProps from "../../Props/CheckProps/CheckProps"
-import ButtonProps from "../../Props/ButtonProps/ButtonProps"
 import SmartProps from "../../Props/SmartProps/SmartProps"
 import DocProps from "../../Props/DocProps/DocProps"
 import StayWalk from "../../Props/StayWalk/stayWalk"
-
-
+import "./SingleRoom.css"
+import starImg from "../../assets/star-img.png"
+import roomImg from "../../assets/IMG_9715.jpg"
+import userImg from "../../assets/user.svg"
+import television from "../../assets/television.png"
 
 const SingleRoom = () => {
     return(
         <>
         <section>
-            <div>
+            <div className="single-room-text-div">
             <h1>Small Room</h1>
             <div>
                 <p>HOTEL ROME</p>
-                <img src="" alt="" />
+                <img src={starImg} alt="" />
             </div>
             </div>
             
-            <div>
-                <div>
-                  <img src="" alt="" />
+            <div className="single-div">
+                <div className="room-img">
+                  <img src={roomImg} alt="" />
                 </div>
 
-                <div>
-                    <SmartProps first="1 GUESTS"/>
-                    <SmartProps first="15 ft"/>
-                    <SmartProps first="56$ / PER NIGHT"/>
-                    <SmartProps first="WEEK PRICE"/>
+                <div className="room-details">
+                    <SmartProps img={userImg} color="smartPropss" first="1 GUESTS"/>
+                    <SmartProps img={userImg} color="smartPropss" first="15 ft"/>
+                    <SmartProps img={userImg} color="smartPropss" first="56$ / PER NIGHT"/>
+                    <SmartProps img={userImg} color="smartPropss" first="WEEK PRICE"/>
                 </div>
 
-                <div>
+                <div className="single-room-text">
                     <p>Cras malesuada mauris tortor, id tempus mauris blandit sit amet. Morbi a velit efficitur, porttitor metus et,</p>
                     <p>interdum nunc. Phasellus ut elementum diam. Aliquam erat volutpat. Nunc et facilisis elit. Donec</p>
                     <p>consectetur nibh vel gravida aliquet. Suspendisse sit amet lectus tristique, condimentum libero vel, porta</p>
@@ -42,26 +42,25 @@ const SingleRoom = () => {
                     <p>tortor. Vivamus luctus sed nibh ac cursus. Sed vel ligula non risus tempus fermentum.</p>
                 </div>
 
-                <div>
-                    <DocProps label="Swimming Pool"/>
-                    <DocProps label="Television"/>
-                    <DocProps label="No Smoking"/>
-                    <DocProps label="Private Bathroom"/>
+                <div className="room-me-service">
+                <h2 className="room-service-txt">Room Services</h2>
+                <div className="room-doc-div">
+                    <DocProps img={television} label="Swimming Pool"/>
+                    <DocProps img={television} label="Television"/>
+                    <DocProps img={television} label="No Smoking"/>
+                    <DocProps img={television} label="Private Bathroom"/>
                 </div>
-
-                <div>
-                    <h1>Around The Hotel</h1>
-                    <StayWalk first="Lounge Bar"/>
-                    <StayWalk first="Lounge Bar"/>
-                    <StayWalk first="Lounge Bar"/>
                 </div>
-
-                <div>
-                    <h1>Similar rooms</h1>
-                     <StayAround/>
-                     <StayAround/>
-                     <StayAround/>
+                
+                <div className="room-me-service">
+                <h2 className="room-service-txt">Around The Hotel</h2>
+                <div className="room-around-div">
+                    <StayWalk first="Relax Zone" color="stayWalk-divss"  />
+                    <StayWalk first="Relax Zone" color="stayWalk-divss"  />
+                    <StayWalk first="Relax Zone" color="stayWalk-divss"  />
                 </div>
+                </div>
+                
                
             </div>
         </section>

@@ -1,4 +1,5 @@
 import Footer from "../../Components/Footer/footer"
+import FooterTop from "../../Components/FooterTop/FooterTop"
 import Header from "../../Components/Header/header"
 import HeroSection from "../../Components/HeroSection/herosection"
 import Relax from "../../Components/Relax/relax"
@@ -18,6 +19,7 @@ const Home = () => {
         <Reservation/>
         <StayTuned/>
         <SmartSec/>
+        <FooterTop/>
         <Footer/>
         </>
     )

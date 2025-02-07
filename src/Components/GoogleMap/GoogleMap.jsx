@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import axios from "axios"
 
-const mapContainerStyle = {
-  width: "100%",
-  height: "400px",
-};
+// const mapContainerStyle = {
+//   width: "100%",
+//   height: "400px",
+// };
 
 
 
-const GoogleMapComponent = () => {
+const GoogleMapComponent = ({mapContainerStyle}) => {
 
   const address = "FAME'S PLACE  Castle of Comfort 19 Eze Ihunwo Eze Ogbonda street, off Circular road, woji, PH, Rivers State, Nigeria";
   

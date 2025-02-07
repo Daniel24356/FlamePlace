@@ -1,0 +1,35 @@
+.room-indiv-div{
+    background-image: url(../../assets/IMG_9580.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 339px;
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    justify-content: baseline;
+    padding: 10px 50px;
+}
+.room-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+}
+.room-price-txt{
+    display: flex;
+    align-items: center;
+}
+.room-price-txt div p{
+    color: white;
+}
+.room-price-txt h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    font-family: Gilda Display;
+    letter-spacing: 1px;
+}
+.room-left{
+    display: flex;
+    gap: 30px;
+}

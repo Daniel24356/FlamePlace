@@ -20,6 +20,17 @@
     flex-direction: column;
     padding: 40px 30px;
 }
+.stayWalk-divss{
+   background-image: url(../../assets/IMG_9691.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 345px;
+   width: 243px;
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+   padding: 40px 30px;
+}
 .stayWalk-div p{
     font-size: 13px;
     font-weight: 400;
@@ -48,6 +59,21 @@
     color: white;
     margin-top: 10px;
 }
+.stayWalk-divss p{
+   font-size: 13px;
+   font-weight: 400;
+   color: white;
+   letter-spacing: 4px;
+}
+.stayWalk-divss h2{
+   font-size: 23px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   font-family: Gilda Display;
+   color: white;
+   margin-top: 10px;
+}
+
 @media (max-width: 1188px) {
     .stayWalk-div{
       width: 300px;

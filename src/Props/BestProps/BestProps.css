@@ -1,0 +1,26 @@
+.bestProps{
+    display: flex;
+    gap: 20px;
+}
+.bestProps img{
+    width: 100px;
+    height: 100px;
+}
+.bestProps div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bestProps div h3{
+    color: rgb(28, 28, 28);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+}
+.bestProps div p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgb(92, 92, 92);
+}

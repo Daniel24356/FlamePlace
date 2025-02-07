@@ -1,0 +1,30 @@
+.Account-sec{
+    display: flex;
+    gap: 30px;
+    padding: 120px 40px;
+}
+.account-form{
+    border: 1px solid gainsboro;
+    padding: 25px 20px;
+    /* width: 560px;
+    height: 375.33px; */
+}
+.account-form h3{
+   color: rgb(28, 28, 28);
+   font-size: 20px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   font-family: Gilda Display;
+   margin-top: 10px;
+}
+.remember-div{
+    display: flex;
+    gap: 10px;
+    margin-top: 26px;
+}
+.remember-div label{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgb(92, 92, 92);
+}

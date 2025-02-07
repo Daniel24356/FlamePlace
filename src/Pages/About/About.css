@@ -1,0 +1,50 @@
+.about-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+}
+.about-div img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.About-banner{
+    height: 432px;
+    width: 1263px;
+    background-image: url(../../assets/reception2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.About-banner-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2px;
+}
+.About-banner-div h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+}
+.About-banner-div div{
+    margin-top: 20px;
+}
+.About-banner-div div p{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.extra-info-sec{
+    margin-top: 105px;
+}
+.check-extra{
+    width: 369.958px;
+    height: 396px;
+    background-color: rgb(28, 28, 28);
+    padding: 30px 30px;
+}
+.check-extra-div{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.extra-docs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.room-service-top{
+    margin-top: 40px;
+}
+.best-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.room-document-div{
+    margin-top: 40px;
+}
+.arr-down-icons{
+    color: rgb(193, 155, 118)
+}

@@ -1,45 +1,17 @@
 import "./footer.css"
 import ButtonProps from "../../Props/ButtonProps/ButtonProps"
-import ContactProps from "../../Props/ContactProps/ContactProps"
 import SupportProps from "../../Props/SupportProps/SupportProps"
-import call from "../../assets/call-img.png"
-import envelop from "../../assets/envelop-img.png"
-import GoogleMapComponent from "../GoogleMap/GoogleMap"
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 
+
 const Footer = () => {
     return(
         <>
          <footer className="footer">
-            <div className="footer-inner"> 
-                <div className="google-map">
-              <GoogleMapComponent/>
-                </div>   
-             <ContactProps 
-             icon={call}
-             contactText="Contact Us" 
-             reserveText="Reservation :" 
-             number="+ 202 303 404" 
-             bookingText="Booking :" 
-             numberTwo="+ 414 123 404"
-             color="contact-div"
-             />
-
-             <ContactProps 
-             icon={envelop}
-             contactText="Drop a Line" 
-             reserveText="Information :" 
-             number="info@hotel.com" 
-             bookingText="Reception :" 
-             numberTwo="book@hotel.com"
-             color="contact-divs"
-             />
-            </div>
-
             <div className="footer-down">
              <div className="foot-down-div">
               <SupportProps supportText="Phone Support" timeText="24 HOURS A DAY"/>

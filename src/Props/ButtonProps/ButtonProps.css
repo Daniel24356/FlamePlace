@@ -33,3 +33,82 @@
     background-color: rgb(193, 155, 119);
     border: none;
 }
+.book-now-large{
+    width: 309.958px;
+    height: 41px;
+    color: white;
+    background-color: rgb(193, 155, 118);
+    border: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.book-now-small{
+    width: 100.958px;
+    height: 25px;
+    color: white;
+    background-color: rgb(193, 155, 118);
+    border: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.view-prices{
+    width: 154.41px;
+    height: 42px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(193, 155, 118);
+    letter-spacing: 2px;
+    margin-top: 45px;
+}
+.send{
+    width: 705px;
+    height: 42px;
+    background-color: rgb(29, 29, 29);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.contact-us{
+    width: 152.281px;
+    height: 42px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: rgb(193, 155, 118);
+    border: none;
+    margin-top: 30px;
+}
+.already-member{
+    width: 159.948px;
+    height: 23px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(193, 155, 118);
+    letter-spacing: 1px;
+}
+.already-members{
+    width: 220.948px;
+    height: 23px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(193, 155, 118);
+    letter-spacing: 1px;
+}
+.login{
+    width: 518.667px;
+    height: 37.33px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Gilda Display;
+    background-color: rgb(193, 155, 118);
+    margin-top: 26px;
+}

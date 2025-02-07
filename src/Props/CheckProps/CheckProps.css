@@ -37,3 +37,29 @@
     font-weight: 400;
     letter-spacing: 1px;
 }
+
+.check-props{
+    width: 139.979px;
+    height: 118px;
+    background-color: rgb(21, 21, 21);
+    padding: 20px 25px;
+}
+.check-txts{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+}
+.date-txts{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+    color: rgb(193, 155, 118);
+}
+.month-txtss{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(193, 155, 118);
+}

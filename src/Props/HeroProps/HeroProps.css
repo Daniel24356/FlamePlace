@@ -1,0 +1,19 @@
+.heroprops{
+    height: 360px;
+    background-image: url(../../assets/IMG_9715.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.heroprops h1{
+    /* text-align: center; */
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    font-family: Gilda Display;
+    letter-spacing: 1px;
+}

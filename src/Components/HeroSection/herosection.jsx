@@ -27,21 +27,30 @@ const HeroSection = () => {
              secondColor="month-txt" 
              monthDate="Feb" 
              icon={<IoIosArrowDown/>} 
-             color="check-me" />
+             color="check-me"
+             firstColor="check-txt"
+             thirdColor="date-txt"
+              />
             <CheckProps 
             checkText="CHECK-IN" 
             dateText="03" 
             secondColor="month-txt" 
             monthDate="Feb" 
             icon={<IoIosArrowDown/>} 
-            color="check-me" />
+            color="check-me"
+             firstColor="check-txt"
+             thirdColor="date-txt"
+            />
             <CheckProps 
             checkText="CHECK-IN" 
             dateText="03" 
             secondColor="month-txts" 
             monthDate={<IoIosArrowUp />} 
             icon={<IoIosArrowDown/>} 
-            color="checks-me" />
+            color="checks-me" 
+             firstColor="check-txt"
+             thirdColor="date-txt"
+            />
             </div>
             
             <div className="check-available">

@@ -1,0 +1,69 @@
+.single-room-text-div h1{
+   font-size: 40px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   font-family: Gilda Display;
+   color: rgb(28, 28, 28);
+}
+.single-room-text-div div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.single-room-text-div  p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(92, 92, 92);
+    margin-top: 5px;
+}
+.single-room-text-div div img{
+    width: 110px;
+    height: 23px;
+}
+.single-div{
+    margin-top: 35px;
+}
+.room-img img{
+    width: 770px;
+    height: 396px;
+    object-fit: cover;
+}
+.room-details{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+    padding-left: 60px;
+}
+.single-room-text{
+    margin-top: 50px;
+}
+.room-me-service{
+    margin-top: 40px;
+}
+.single-room-text p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgb(92, 92, 92);
+    line-height: 27px;
+}
+.room-doc-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    margin-top: 20px;
+}
+.room-service-txt{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Gilda Display;
+    color: rgb(28, 28, 28);
+    letter-spacing: 1px;
+}
+.room-around-div{
+    display: flex;
+    gap: 17px;
+    margin-top: 30px;
+}

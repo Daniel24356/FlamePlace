@@ -16,13 +16,14 @@ const Header = () => {
             </div>
             <div className="header-right">
             <div className="header-mid">  
-              <HeaderProps label="Home" color="gray"/>
+              <Link to='/' className="home-link"><HeaderProps label="Home" color="gray"/></Link>
               <Link to='/room' className="home-link"> <HeaderProps label="Rooms" color="gray"/></Link>
-              <HeaderProps label="About" color="gray"/>
+              <Link to='/about' className="home-link"> <HeaderProps label="About" color="gray"/></Link>
+             
               <HeaderProps label="Shop" color="gray"/>
               <HeaderProps label="Pages" color="gray"/>
               <HeaderProps label="News" color="gray"/>
-              <HeaderProps label="Contact" color="gray"/>
+              <Link to='/contact' className="home-link"><HeaderProps label="Contact" color="gray"/></Link>
             </div>
             <div className="book-menu">
             <div className="button-head">

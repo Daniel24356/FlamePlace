@@ -3,6 +3,7 @@ import { MdPayment } from "react-icons/md";
 import { FaRegCheckSquare } from "react-icons/fa";
 import { BsEnvelope } from "react-icons/bs";
 import avatar from "../../assets/avatar.jpg"
+import { Link } from "react-router-dom";
 
 const TopHeader = () => {
     return(
@@ -33,8 +34,10 @@ const TopHeader = () => {
              <div className="topHeader-acc">
                 <img src={avatar} alt="" />
                 <div>
-                    <p>My Account</p>
-                    <p>LOG IN</p>
+                    <Link to='/account' className="home-link"><p>My Account</p></Link>
+                    <Link to='/account' className="home-link"><p>LOG IN</p></Link>
+                    
+                    
                 </div>
              </div>
             </div>

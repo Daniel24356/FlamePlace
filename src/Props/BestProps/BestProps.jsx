@@ -1,16 +1,21 @@
 import ButtonProps from "../ButtonProps/ButtonProps"
+import room from "../../assets/IMG_9638.jpg"
+import "./bestProps.css"
 
-
-const BestProps = ({img, first, second}) => {
+const BestProps = ({first, second}) => {
     return(
         <>
-        <div>
-            <img src={img} alt="" />
+        <div className="bestProps">
+            <img src={room} alt="" />
+            <div>
             <div>
               <h3>{first}</h3>
               <p>{second}</p>
             </div>
-            <ButtonProps label="BOOK NOW"/>
+            <ButtonProps color="book-now-small" label="BOOK NOW"/>
+            </div>
+           
+            
         </div>
         </>
     )

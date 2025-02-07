@@ -24,3 +24,30 @@
     letter-spacing: 1px;
     color:rgb(92, 92, 92);
 }
+
+.smartPropss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.smartPropss img{
+    width: 40px;
+    height: 40px;
+}
+.smartPropss div{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+.smartPropss div h3{
+     font-size: 14px;
+     font-weight: 300;
+     color: rgb(92, 92, 92);
+     letter-spacing: 1px;
+     text-align: center;
+}
+.smartPropss div p{
+    font-size: 0px;
+}
