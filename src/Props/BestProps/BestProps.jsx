@@ -1,6 +1,6 @@
 import ButtonProps from "../ButtonProps/ButtonProps"
 import room from "../../assets/IMG_9638.jpg"
-import "./bestProps.css"
+import "./BestProps.css"
 
 const BestProps = ({first, second}) => {
     return(
