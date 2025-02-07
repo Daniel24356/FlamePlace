@@ -6,16 +6,6 @@
     height: 90vh;
     position: relative;
 }
-.hero-sec.active {
-    z-index: 2; /* Bring the active slide to the front */
-    opacity: 1; /* Fully visible */
-    transform: scale(1); /* Normal scale */
-  }
-  
-  .hero-sec:not(.active) {
-    z-index: 1; /* Keep inactive slides in the background */
-    transform: scale(1); /* Optional subtle scaling for inactive slides */
-  }
 .overlay {
     position: absolute;
     top: 0;
@@ -28,23 +18,6 @@
     position: relative;
     z-index: 2;
   }
-  .indicators {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    position: absolute; /* Position them at the bottom of the container */
-    bottom: 20px; /* Adjust based on the container's height */
-    left: 50%;
-    transform: translateX(-50%); /* Center the indicators horizontally */
-    z-index: 10; /* Ensure they appear above other content */
-  }
-  
-  .indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: rgba(200, 200, 200, 0.7); /* Default color */
-}
 .checkprop{
     display: flex;
     align-items: center;

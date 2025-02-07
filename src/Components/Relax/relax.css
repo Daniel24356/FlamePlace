@@ -239,7 +239,7 @@
     }
 }
 
- /* @media (max-width: 385px) {
+ @media (max-width: 385px) {
     .relax-inner{
         width: 300px;
     }
@@ -250,6 +250,9 @@
         left: -5px;
     }
     .sign-box img{
-        width: 100px;
+        width: 70px;
     }
-} */
+    .relax-our h1{
+        font-size: 55px;
+    }
+}

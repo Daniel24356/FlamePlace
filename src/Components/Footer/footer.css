@@ -89,3 +89,15 @@
         grid-template-columns: repeat(1, 1fr);
      }
  }
+
+ @media (max-width: 400px) {
+    .footer-inner{
+       flex-direction: column;
+    }
+    .footer-down{
+       grid-template-columns: repeat(1, 1fr);
+    }
+    .input-btn-div{
+        flex-direction: column;
+    }
+}
