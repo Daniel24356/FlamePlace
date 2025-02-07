@@ -112,3 +112,8 @@
     background-color: rgb(193, 155, 118);
     margin-top: 26px;
 }
+@media (max-width: 420px) {
+    .suscribe{
+        width: 100px;
+    }
+}

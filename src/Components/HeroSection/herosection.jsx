@@ -58,6 +58,8 @@ const HeroSection = () => {
                 <p>AVAILABILITY</p>
             </div>
           </div>
+
+
           </div>
         </section>
         </>

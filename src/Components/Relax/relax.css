@@ -201,6 +201,10 @@
     }
 }
 
+/* @media (max-width: 415px) {
+
+} */
+
 @media (max-width: 415px) {
     .relax-inner{
         width: 340px;
@@ -215,8 +219,6 @@
         width: 100px;
     }
 }
-
- 
 
  @media (max-width: 430px) {
     .relax-sec{
