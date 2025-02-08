@@ -102,18 +102,24 @@
      }
      .item{
         padding: 0px;
-        width: 70%;
+        width: 100%;
      }
      .item img{
-        height: 350px;
+        height: 100%;
      }
      
   }
-  @media (max-width: 478px) {
+  @media (max-width: 479px) {
     .skill {
         padding: 50px 20px 100px 10px; /* Reduce padding */
     }
     
+    .skill-bx{
+        padding: 0px;
+        margin: 0 25px;
+        /* width: 300px; */
+    }
+
     .item {
         padding: 0px;
         width: 100%; /* Set width to 100% for proper scaling */
@@ -130,18 +136,18 @@
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 400px) {
     .skill {
         padding: 50px 20px 100px 10px; 
     }
     
     .skill-bx{
         padding: 0px;
-        margin: 0 25px;
+        margin: 0 20px;
         width: 300px;
     }
     .item img {
-        height: 300px;
+        height: 260px;
         width: 100%; /* Ensure it scales within the container */
     }
 
