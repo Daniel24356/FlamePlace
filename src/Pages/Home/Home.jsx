@@ -1,5 +1,6 @@
 import Footer from "../../Components/Footer/footer"
 import FooterTop from "../../Components/FooterTop/FooterTop"
+import Gallery from "../../Components/Gallery/Gallery"
 import Header from "../../Components/Header/header"
 import HeroSection from "../../Components/HeroSection/herosection"
 import Relax from "../../Components/Relax/relax"
@@ -16,6 +17,7 @@ const Home = () => {
         <HeroSection/>
         <Relax/>
         <RoomSection/>
+        <Gallery/>
         <Reservation/>
         <StayTuned/>
         <SmartSec/>

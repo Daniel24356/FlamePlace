@@ -2,11 +2,20 @@ import "./roomprops.css"
 
 const RoomsProps = ({first, second, third, fourth, imgColor, color = 'primary'}) => {
     const btnStyle = `${color}`;
-    const divStyle = `${imgColor}`
+    const divStyle = `room-card ${imgColor}`
     return(
         <>
           <div className={divStyle}>
             <div className="overlays"></div>
+
+            <div className="room-overlay">
+            <div class="room-info">
+            <h3 class="room-name">{second}</h3>
+            <p className="">Experience luxury and comfort in our elegantly designed {second},
+               featuring modern amenities and breathtaking views</p>
+             </div>
+            </div>
+
             <div className={btnStyle}>
                 <p>{first}</p>
             </div>
