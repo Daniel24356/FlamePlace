@@ -82,6 +82,12 @@
     opacity: 0.3;
     cursor: not-allowed;
   }
+
+  @media (min-width: 1024px) {
+    .skill-slider .react-multi-carousel-track {
+      gap: 0px; /* Increase spacing between items */
+    }
+  }
   
   @media (max-width: 1083px) {
     .skill {
@@ -123,10 +129,27 @@
         margin-right: 0px; /* Remove unnecessary margin */
     }
 }
+
+@media (max-width: 415px) {
+    .skill {
+        padding: 50px 20px 100px 10px; 
+    }
+    
+    .skill-bx{
+        padding: 0px;
+        margin: 0 25px;
+        width: 300px;
+    }
+    .item img {
+        height: 300px;
+        width: 100%; /* Ensure it scales within the container */
+    }
+
+    .button-group {
+        width: 100%;
+        margin-right: 0px; /* Remove unnecessary margin */
+    }
+}
   
   /* Adjust spacing for 3 items per row */
-  @media (min-width: 1024px) {
-    .skill-slider .react-multi-carousel-track {
-      gap: 0px; /* Increase spacing between items */
-    }
-  }
+ 
