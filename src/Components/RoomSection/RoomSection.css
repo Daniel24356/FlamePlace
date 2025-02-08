@@ -130,8 +130,8 @@
    }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 381px) {
    .room-sec{
-      padding: 0px 14px;
+      padding: 0px 17px;
    }
 }

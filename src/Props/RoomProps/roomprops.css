@@ -400,7 +400,88 @@
     }
  }
 
- @media (max-width: 385px) {
+ @media (max-width: 381px) {
+    .roomprops-div{
+        width: 335px;
+        height: 290px;
+    }
+    .roompropss-div{
+        width: 335px;
+        height: 290px;
+    }
+    .roompropsss-div{
+        width: 335px;
+        height: 290px;
+    }
+    .roompropssss-div{
+        width: 335px;
+        height: 290px;
+    }
+    .roompropsssss-div{
+        width: 335px;
+        height: 290px;
+    }
+    .roompropssssss-div{
+        width: 335px;
+        height: 290px;
+    }
+ }
+
+ @media (max-width: 364px) {
+    .roomprops-div{
+        width: 330px;
+        height: 290px;
+    }
+    .roompropss-div{
+        width: 330px;
+        height: 290px;
+    }
+    .roompropsss-div{
+        width: 330px;
+        height: 290px;
+    }
+    .roompropssss-div{
+        width: 330px;
+        height: 290px;
+    }
+    .roompropsssss-div{
+        width: 330px;
+        height: 290px;
+    }
+    .roompropssssss-div{
+        width: 330px;
+        height: 290px;
+    }
+ }
+
+ @media (max-width: 357px) {
+    .roomprops-div{
+        width: 325px;
+        height: 290px;
+    }
+    .roompropss-div{
+        width: 325px;
+        height: 290px;
+    }
+    .roompropsss-div{
+        width: 325px;
+        height: 290px;
+    }
+    .roompropssss-div{
+        width: 325px;
+        height: 290px;
+    }
+    .roompropsssss-div{
+        width: 325px;
+        height: 290px;
+    }
+    .roompropssssss-div{
+        width: 325px;
+        height: 290px;
+    }
+ }
+
+ @media (max-width: 353px) {
     .roomprops-div{
         width: 320px;
         height: 290px;
@@ -427,3 +508,29 @@
     }
  }
 
+ @media (max-width: 346px) {
+    .roomprops-div{
+        width: 315px;
+        height: 290px;
+    }
+    .roompropss-div{
+        width: 315px;
+        height: 290px;
+    }
+    .roompropsss-div{
+        width: 315px;
+        height: 290px;
+    }
+    .roompropssss-div{
+        width: 315px;
+        height: 290px;
+    }
+    .roompropsssss-div{
+        width: 315px;
+        height: 290px;
+    }
+    .roompropssssss-div{
+        width: 315px;
+        height: 290px;
+    }
+ }
