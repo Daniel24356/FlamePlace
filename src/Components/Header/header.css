@@ -49,6 +49,7 @@
     .header{
         padding: 0px 0px;
         padding-right: 30px;
+        /* position: relative; */
     }
     .button-head{
         display: none;

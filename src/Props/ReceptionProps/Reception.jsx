@@ -12,8 +12,8 @@ const Reception = ({first}) => {
        <div className="receptionText">
            <h3>{first}</h3>
            <div>
-           <p>Lorem ipsum dolor sit amet, consectetur</p>
-           <p>adipiscing elit. Ut elit tellus, luctus nec</p>
+           <p>Our warm and inviting reception</p>
+           <p>team is available 24/7</p>
            </div>
        </div>
     </div>

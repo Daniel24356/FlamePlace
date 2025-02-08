@@ -12,9 +12,9 @@ const StayAround = ({first, imgStyle}) => {
                 <p className="stayAround-txt">March 14, 2022</p>
                 <h2>{first}</h2>
                 <div>
-                 <p>Phasellus enim libero, blandit vel sapien</p>
-                 <p>vitae, condimentum ultricies magna et.</p>
-                 <p>Quisque euismod orci utet.</p>
+                 <p>Exciting new activities await at Fames</p>
+                 <p>Place! From themed dining nights</p>
+                 <p>and live entertainment to...</p>
                 </div>
                 <ButtonProps label="READ MORE" color="read-more"/>
             </div>

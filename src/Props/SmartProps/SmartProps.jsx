@@ -9,7 +9,7 @@ const SmartProps = ({first, color, img}) => {
             <img src={img} alt="" />
             <div>
                 <h3>{first}</h3>
-                <p>Lorem ipsum dolor</p>
+                <p>we use smart devices here.</p>
             </div>
         </div>
         </>

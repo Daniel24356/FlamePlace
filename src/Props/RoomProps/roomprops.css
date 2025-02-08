@@ -9,6 +9,10 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+.roomprops-div:hover{
+    transform: translateY(-10px);
 }
 .roompropss-div{
     width: 350.958px;
@@ -21,6 +25,10 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+.roompropss-div:hover{
+    transform: translateY(-10px);
 }
 .roompropsss-div{
     width: 350.958px;
@@ -33,6 +41,10 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+.roompropsss-div:hover{
+    transform: translateY(-10px);
 }
 .roompropssss-div{
     width: 350.958px;
@@ -45,6 +57,10 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+.roompropssss-div:hover{
+    transform: translateY(-10px);
 }
 .roompropsssss-div{
     width: 350.958px;
@@ -57,6 +73,10 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+.roompropsssss-div:hover{
+    transform: translateY(-10px);
 }
 .roompropssssss-div{
     width: 350.958px;
@@ -69,6 +89,10 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
+    transition: transform 0.3s ease;
+}
+.roompropssssss-div:hover{
+    transform: translateY(-10px);
 }
 .overlays{
     position: absolute;
@@ -128,6 +152,8 @@
     font-weight: 400;
     color: white;
 }
+
+
 
 @media (max-width: 1154px) {
      .roomprops-div{
@@ -377,21 +403,27 @@
  @media (max-width: 385px) {
     .roomprops-div{
         width: 320px;
+        height: 290px;
     }
     .roompropss-div{
         width: 320px;
+        height: 290px;
     }
     .roompropsss-div{
         width: 320px;
+        height: 290px;
     }
     .roompropssss-div{
         width: 320px;
+        height: 290px;
     }
     .roompropsssss-div{
         width: 320px;
+        height: 290px;
     }
     .roompropssssss-div{
         width: 320px;
+        height: 290px;
     }
  }
 

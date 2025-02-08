@@ -1,12 +1,31 @@
+import { useEffect, useState } from "react";
 import ButtonProps from "../../Props/ButtonProps/ButtonProps"
 import CheckProps from "../../Props/CheckProps/CheckProps"
 import "./herosection.css"
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
+import image1 from "../../assets/IMG_9725.jpg"
+import image2 from "../../assets/IMG_9736.jpg"
+import image3 from "../../assets/IMG_9734.jpg"
+import image4 from "../../assets/IMG_9811.jpg"
+
+const images = [image1,image2,image3, image4];
+
 const HeroSection = () => {
+
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 2000); // Change image every 5 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
     return(
         <>
-        <section className="hero-sec">
+        <section  className="hero-sec"  style={{ backgroundImage: `url(${images[currentImage]})` }}>
         <div class="overlay"></div>
         <div className="hero-content">
             <div className="hero-div">

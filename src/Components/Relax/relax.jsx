@@ -16,28 +16,28 @@ const Relax = () => {
                 </div>
            
             <div>
-                <p className="hotel-txt">HOTEL BAYVIEW</p>
+                <p className="hotel-txt">FAME PLACE</p>
                 <div className="relax-our">
                     <h1>Relax in our</h1>
                     <h1>Hotel Resort</h1>
                 </div>
                 <div className="text-div">
                     <TextProps 
-                    first="Quisque eu euismod arcu. Morbi et dapibus"
-                    second="diam, sed interdum velit. Proin tempor nunc" 
-                    third="vel nisl condimentum, nec tempor risus."/>
+                    first="Welcome to Fames Place, where luxury"
+                    second="meets comfort in the heart of Woji, PH" 
+                    third="Designed to offer a perfect blend of elegance."/>
                      <TextProps 
-                    first="Quisque eu euismod arcu. Morbi et dapibus"
-                    second="diam, sed interdum velit. Proin tempor nunc" 
-                    third="vel nisl condimentum, nec tempor risus."/>
+                    first="At Fames Place, we believe in creating more"
+                    second="than just a stay—we curate unforgettable " 
+                    third="moments."/>
                      <TextProps 
-                    first="Quisque eu euismod arcu. Morbi et dapibus"
-                    second="diam, sed interdum velit. Proin tempor nunc" 
-                    third="vel nisl condimentum, nec tempor risus."/>
+                    first="Indulge in exquisite dining at our on-site "
+                    second="restaurant, unwind in our serene spa" 
+                    third="and our bar."/>
                      <TextProps 
-                    first="Quisque eu euismod arcu. Morbi et dapibus"
-                    second="diam, sed interdum velit. Proin tempor nunc" 
-                    third="vel nisl condimentum, nec tempor risus."/>
+                    first="Come experience hospitality"
+                    second="redefined—Fames Place, where" 
+                    third="every guest is treated like family."/>
                 </div>
                 <div className="profile-sign">
                     <div className="profile-box">

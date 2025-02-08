@@ -151,11 +151,11 @@
   @media (max-width: 385px) {
     .imagefirst{
         width: 312px;
-        height: 320px;
+        height: 240px;
     }   
     .imagesecond{
         width: 312px;
-        height: 310px;
+        height: 280px;
     }  
     .stayAround-div{
         width: 312px;

@@ -11,14 +11,14 @@ const StayTuned = () => {
             <p className="stay-hotel">HOTEL NEWS & EVENT</p>
             <h1>Stay Tuned</h1>
             <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc orci nisl, tempus ut sem a,</p>
-            <p>scelerisque sollicitudin arcu.</p>
+            <p>Stay tuned for exciting events and activities at Fames Place, where unforgettable </p>
+            <p>experiences await!</p>
             </div>
         </div>
 
         <div className="tuned-div">
             <div className="tuned-me">
-                <StayAround first="New Website" imgStyle="imagefirst"/>
+                <StayAround first="New Activities" imgStyle="imagefirst"/>
                 <img className="tune-imgs" src={resort} alt="" />
                 <div className="tune-display">
                 <StayWalk first="Relax Zone" color="stayWalk-div"  />
@@ -26,7 +26,7 @@ const StayTuned = () => {
             </div>
             <div className="tuned-me">
                 <img className="tune-img" src={resort} alt="" />
-            <StayAround first="New Website" imgStyle="imagesecond"/>
+            <StayAround first="New Activities" imgStyle="imagesecond"/>
             <div className="tune-display">
                 <StayWalk first="Relax Zone" color="stayWalk-div"  />
                 </div>

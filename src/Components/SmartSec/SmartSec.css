@@ -36,3 +36,8 @@
     }
  }
  
+ @media (max-width: 385px) {
+    .smart-sec{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 150px 10px 100px 10px;    }
+ }

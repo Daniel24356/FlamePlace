@@ -8,7 +8,10 @@
     margin-left: 100px;
     margin-top: 30px;
 }
-
+.reception:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 10px 3px rgba(221, 221, 221, 0.75);
+}
 .receptionImg{
     width: 103.8px;
     height: 103.8px;
@@ -238,8 +241,8 @@
 @media (max-width: 385px) {
     .reception{
         width: 310px;
-        height: 260px;
-        margin-left: 29px;
+        height: 230px;
+        margin-left: 20px;
         padding: 50px 30px;
     }
     .receptionImg{

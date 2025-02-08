@@ -276,13 +276,15 @@
 
   @media (max-width: 385px) {
     .stayTuned-sec{
-        padding: 130px 23px;
+        padding: 130px 18px;
         /* width: 100%; */
     }
     .tune-img{
         width: 312px;
+        height: 240px;
     }
     .tune-imgs{
         width: 312px;
+        height: 240px;
     }
   }
