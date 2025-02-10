@@ -8,7 +8,7 @@
 .relax-inner{
     width: 415px;
     height: 555.49px;
-    background-image: url(../../assets/IMG_9725.jpg);
+    background-image: url(../../assets/IMG_9736.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,9 +57,13 @@
     column-gap: 20px;
 }
 .profile-box{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 20px; */
+    display: none;
+}
+.sign-box{
+    display: none;
 }
 .profile-box img{
     width: 54.4896px;
@@ -245,7 +249,7 @@
         width: 300px;
     }
     .relax-sec{
-       margin: 130px 25px;
+       margin: 90px 25px;
     }
     .relax-suite{
         left: -5px;

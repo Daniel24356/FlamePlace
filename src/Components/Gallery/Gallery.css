@@ -5,7 +5,6 @@
     background-color:rgb(249, 249, 249);
     margin-top: 100px;
   }
-  
   .skill h2{
     font-size: 40px;
     font-weight: 700;
@@ -39,6 +38,7 @@
   
   .item:hover {
     transform: scale(1.05);
+    cursor: pointer;
   }
   
   .item img {

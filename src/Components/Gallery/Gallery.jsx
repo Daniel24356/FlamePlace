@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -31,18 +32,24 @@ const fadeInVariant = {
 };
 
 const Gallery = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   const ButtonGroup = ({ next, previous, carouselState }) => {
     const { currentSlide, totalItems, slidesToShow } = carouselState;
 
     return (
-      <div className="button-group">
+      <motion.div
+        className="button-group"
+        animate={{ opacity: isHovered ? 1 : 0 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
         <button className="custom-arrow left" onClick={previous} disabled={currentSlide === 0}>
           <FaChevronLeft size={30} />
         </button>
         <button className="custom-arrow right" onClick={next} disabled={currentSlide + slidesToShow >= totalItems}>
           <FaChevronRight size={30} />
         </button>
-      </div>
+      </motion.div>
     );
   };
 
@@ -50,24 +57,30 @@ const Gallery = () => {
     <section className="skill" id="gallery">
       <div className="skill-bx">
         <h2>Our Gallery</h2>
-        <Carousel
-          responsive={responsive}
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          customButtonGroup={<ButtonGroup />}
-          renderButtonGroupOutside={true}
-          arrows={false}
-          swipeable={true}
-          draggable={true}
-          className="skill-slider"
+        <div
+          className="carousel-container"
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
         >
-          {images.map((image, i) => (
-            <motion.div key={i} className="item" variants={fadeInVariant} initial="hidden" whileInView="show">
-              <img src={image} alt={`Gallery ${i}`} />
-            </motion.div>
-          ))}
-        </Carousel>
+          <Carousel
+            responsive={responsive}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={3000}
+            customButtonGroup={<ButtonGroup />}
+            renderButtonGroupOutside={true}
+            arrows={false}
+            swipeable={true}
+            draggable={true}
+            className="skill-slider"
+          >
+            {images.map((image, i) => (
+              <motion.div key={i} className="item" variants={fadeInVariant} initial="hidden" whileInView="show">
+                <img src={image} alt={`Gallery ${i}`} />
+              </motion.div>
+            ))}
+          </Carousel>
+        </div>
       </div>
     </section>
   );

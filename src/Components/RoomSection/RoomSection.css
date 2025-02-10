@@ -96,25 +96,25 @@
 
 @media (max-width: 489px) {
    .room-sec{
-      padding: 130px 19px;
+      padding: 120px 19px;
    }
 }
 
 @media (max-width: 469px) {
    .room-sec{
-      padding: 130px 10px;
+      padding: 120px 10px;
    }
 }
 
 @media (max-width: 470px) {
    .room-sec{
-      padding: 130px 12px;
+      padding: 110px 12px;
    }
 }
 
 @media (max-width: 451px) {
    .room-sec{
-      padding: 130px 12px;
+      padding: 100px 12px;
    }
 }
 

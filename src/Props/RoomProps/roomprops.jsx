@@ -1,4 +1,5 @@
 import "./roomprops.css"
+import { TbCurrencyNaira } from "react-icons/tb";
 
 const RoomsProps = ({first, second, third, fourth, imgColor, color = 'primary'}) => {
     const btnStyle = `${color}`;
@@ -17,6 +18,7 @@ const RoomsProps = ({first, second, third, fourth, imgColor, color = 'primary'})
             </div>
 
             <div className={btnStyle}>
+                <TbCurrencyNaira className="naira-icon"/>
                 <p>{first}</p>
             </div>
             <div className="roomprops-content">

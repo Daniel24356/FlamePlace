@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import ButtonProps from "../../Props/ButtonProps/ButtonProps";
 import CheckProps from "../../Props/CheckProps/CheckProps";
@@ -7,20 +7,11 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import image1 from "../../assets/IMG_9725.jpg";
 import image2 from "../../assets/IMG_9736.jpg";
 import image3 from "../../assets/IMG_9734.jpg";
-import image4 from "../../assets/IMG_9811.jpg";
 
-const images = [image1, image2, image3, image4];
+const images = [image1, image2, image3];
 
 const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <>
@@ -29,7 +20,7 @@ const HeroSection = () => {
         <motion.div
           className="hero-bg"
           style={{ backgroundImage: `url(${images[currentImage]})` }}
-          key={currentImage} // Ensure it updates correctly
+          key={currentImage} // Ensures animation updates correctly
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -131,6 +122,17 @@ const HeroSection = () => {
             </motion.div>
           </motion.div>
         </motion.div>
+
+        {/* Image Selector Buttons */}
+        <div className="image-selector">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              className={`selector-btn ${currentImage === index ? "active" : ""}`}
+              onClick={() => setCurrentImage(index)}
+            ></button>
+          ))}
+        </div>
       </section>
     </>
   );
