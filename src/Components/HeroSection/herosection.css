@@ -5,8 +5,16 @@
     background-position: center;
     height: 90vh;
     position: relative;
-    transition: background-image 1.5s ease-in-out;
+    transition: background-image .5s ease-in-out;
 }
+.hero-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity .3s ease-in-out;
+  }
 .overlay {
     position: absolute;
     top: 0;

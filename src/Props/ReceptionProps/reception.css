@@ -250,3 +250,16 @@
         height: 60px;
     }
 }
+
+@media (max-width: 355px) {
+    .reception{
+        width: 310px;
+        height: 230px;
+        margin-left: 22px;
+        padding: 50px 35px;
+    }
+    .receptionImg{
+        width: 60px;
+        height: 60px;
+    }
+}

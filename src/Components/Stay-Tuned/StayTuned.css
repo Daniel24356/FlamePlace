@@ -288,3 +288,17 @@
         height: 240px;
     }
   }
+  @media (max-width: 370px) {
+    .stayTuned-sec{
+        padding: 130px 22px;
+        /* width: 100%; */
+    }
+    .tune-img{
+        width: 312px;
+        height: 240px;
+    }
+    .tune-imgs{
+        width: 312px;
+        height: 240px;
+    }
+  }
