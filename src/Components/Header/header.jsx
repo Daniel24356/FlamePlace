@@ -32,8 +32,8 @@ const Header = () => {
             <Link to="/about" className="home-link">
               <HeaderProps label="About" color="gray" />
             </Link>
-            <HeaderProps label="Shop" color="gray" />
-            <HeaderProps label="Pages" color="gray" />
+            <HeaderProps label="Services" color="gray" />
+            <HeaderProps label="Hotel Pictures" color="gray" />
             <HeaderProps label="News" color="gray" />
             <Link to="/contact" className="home-link">
               <HeaderProps label="Contact" color="gray" />

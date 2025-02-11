@@ -32,7 +32,7 @@ const Relax = () => {
               <h1>
                 + {counterOn && <CountUp style={{ fontSize: 55 }} start={0} end={76} duration={2} delay={0} />}
               </h1>
-              <p>CUSTOMERS</p>
+              <p>Happy Guests</p>
             </motion.div>
           </motion.div>
         </ScrollTrigger>
