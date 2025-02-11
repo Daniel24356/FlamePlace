@@ -238,11 +238,24 @@
     }
 }
 
+@media (max-width: 397px) {
+    .reception{
+        width: 310px;
+        height: 230px;
+        margin-left: 45px;
+        padding: 50px 30px;
+    }
+    .receptionImg{
+        width: 60px;
+        height: 60px;
+    }
+}
+
 @media (max-width: 385px) {
     .reception{
         width: 310px;
         height: 230px;
-        margin-left: 20px;
+        margin-left: 33px;
         padding: 50px 30px;
     }
     .receptionImg{

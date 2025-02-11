@@ -1,44 +1,40 @@
-import "./roomprops.css"
+import "./roomprops.css";
 import { TbCurrencyNaira } from "react-icons/tb";
 
-const RoomsProps = ({first, second, third, fourth, imgColor, color = 'primary'}) => {
+const RoomsProps = ({ first, second, third, fourth, imgColor, color = "primary" }) => {
     const btnStyle = `${color}`;
-    const divStyle = `room-card ${imgColor}`
-    return(
-        <>
-          <div className={divStyle}>
+    const divStyle = `room-card ${imgColor}`;
+    return (
+        <div className={divStyle}>
             <div className="overlays"></div>
 
-            <div className="room-overlay">
-            <div class="room-info">
-            <h3 class="room-name">{second}</h3>
-            <p className="">Experience luxury and comfort in our elegantly designed {second},
-               featuring modern amenities and breathtaking views</p>
-             </div>
+            {/* Room Name and Border Bottom */}
+            <div className="room-header">
+                <h3 className="room-name">{second}</h3>
+                <div className="room-border"></div>
             </div>
 
-            <div className={btnStyle}>
-                <TbCurrencyNaira className="naira-icon"/>
-                <p>{first}</p>
-            </div>
-            <div className="roomprops-content">
-            <div>
-                <h1 className="room-name">{second}</h1>
+            {/* Room Details (Hidden Initially, Appears After Name Moves) */}
+            <div className="room-overlay">
+                <p className="room-description">
+                    Experience luxury and comfort in our elegantly designed {second},
+                    featuring modern amenities and breathtaking views.
+                </p>
                 <div className="room-icons-div">
                     <div>
-                      {/* icons */}
-                      <p>{third}</p>
+                        <p>{third}</p>
                     </div>
-                    <div> 
-                      {/* icons */}
-                      <p>{fourth}</p>
+                    <div>
+                        <p>{fourth}</p>
                     </div>
                 </div>
+                <div className={btnStyle}>
+                    <TbCurrencyNaira className="naira-icon" />
+                    <p>{first}</p>
+                </div>
             </div>
-            </div>
-          </div>
-        </>
-    )
-}
+        </div>
+    );
+};
 
-export default RoomsProps
+export default RoomsProps;

@@ -135,7 +135,7 @@
         display: none;
     }
  }
-
+  
  @media (max-width: 385px) {
      .hero-div div h1{
          font-size: 40px;

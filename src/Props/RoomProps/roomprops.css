@@ -1,4 +1,4 @@
-.room-card{
+.room-card {
     width: 350.958px;
     height: 227.573px;
     background-position: center;
@@ -8,9 +8,102 @@
     flex-direction: column;
     justify-content: end;
     padding: 20px 30px;
-    /* transition: transform 0.3s ease; */
     overflow: hidden;
+    transition: background 0.4s ease-in-out;
 }
+
+/* Dark overlay effect on hover (Less Darkness) */
+.room-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Initially transparent */
+    transition: background 0.4s ease-in-out;
+    z-index: 1; /* Ensure it's behind the content */
+}
+
+.room-card:hover::after {
+    background: rgba(0, 0, 0, 0.3); /* Reduced darkness */
+}
+
+/* Room Header (Name + Border) */
+.room-header {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    text-align: left;
+    transition: transform 0.6s ease-in-out;
+    z-index: 2; /* Ensure it's above the dark overlay */
+}
+
+.room-name {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+    color: white;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* Move Name & Border to the top */
+.room-card:hover .room-header {
+    transform: translateY(-160px);
+}
+
+.room-card:not(:hover) .room-header {
+    transform: translateY(0);
+}
+
+/* Room details container */
+.room-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: left;
+    padding: 20px 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out 0.3s;
+    z-index: 2; /* Ensure it's above the dark overlay */
+}
+
+/* Make details appear smoothly */
+.room-card:hover .room-overlay {
+    opacity: 1;
+    top: 50px;
+}
+
+/* Order of Details */
+.room-icons-div {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.room-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Price Section */
+.room-price {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
 .roomprops-div{
     background-image: url(../../assets/IMG_9580.jpg);
 }
@@ -20,14 +113,14 @@
     letter-spacing: 1px;
 }
 
-.room-overlay {
+/* .room-overlay {
     position: absolute;
-    bottom: -100%; /* Starts hidden below the card */
+    bottom: -100%; 
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-    backdrop-filter: blur(10px); /* Adds blur effect */
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); 
     color: white;
     display: flex;
     flex-direction: column;
@@ -36,14 +129,14 @@
     text-align: center;
     padding: 20px;
     transition: bottom 0.4s ease-in-out, backdrop-filter 0.4s ease-in-out;
-}
+} */
 
-.room-card:hover .room-overlay {
+/* .room-card:hover .room-overlay {
     bottom: 0;
     backdrop-filter: blur(10px);
     z-index: 100;
     cursor: pointer;
-}
+} */
 .overlay-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -100,8 +193,9 @@
     background-color: black;
     padding: 11px 25px;
     position: absolute;
-    top: 20px;
-    right: 0;
+    /* top: 20px; */
+    /* right: 0; */
+    left: 20px;
      display: flex;
     align-items: center; 
     gap: 5px;
@@ -123,17 +217,17 @@
     letter-spacing: 4px;
     white-space: nowrap;
 }
-.room-name{
+/* .room-name{
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: Gilda Display;
     color: white;
-}
-.room-icons-div{
+} */
+/* .room-icons-div{
     display: flex;
     gap: 20px;
-}
+} */
 .room-icons-div div p{
     font-size: 13px;
     font-weight: 400;
@@ -163,6 +257,16 @@
         height: 350px;
      }
  }
+ @media (max-width: 808px) {
+    .room-card{
+       width: 600px;
+       height: 350px;
+    }
+    .room-card:hover .room-header {
+    transform: translateY(-280px);
+}
+}
+ 
 
  @media (max-width: 682px) {
     .room-card{
@@ -207,14 +311,38 @@
     .room-card{
         width: 380px;
     }
+
  }
 
+ @media (max-width: 404px) {
+    .room-card{
+        width: 370px;
+    }
+ }
+
+ @media (max-width: 396px) {
+    .room-card{
+        width: 360px;
+    }
+ }
+
+ @media (max-width: 387px) {
+    .room-card{
+        width: 360px;
+        height: 300px;
+    }
+    .room-card:hover .room-header {
+        transform: translateY(-230px);
+    }
+ }
  @media (max-width: 381px) {
     .room-card{
-        width: 335px;
+        width: 343px;
         height: 290px;
     }
-    
+    .room-card:hover .room-header {
+        transform: translateY(-215px);
+    }
  }
 
  @media (max-width: 364px) {
