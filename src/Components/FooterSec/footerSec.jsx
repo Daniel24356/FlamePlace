@@ -58,7 +58,6 @@ const FooterSecond = () => {
       </div>
       <div className="footer-bottom">
         <p>©️ {new Date().getFullYear()} Fames Place. All rights reserved.</p>
-        <p>Designed for Luxury & Comfort</p>
       </div>
     </footer>
         </>
