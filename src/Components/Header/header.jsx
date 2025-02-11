@@ -56,8 +56,8 @@ const Header = () => {
         <Link to="/" onClick={toggleMenu}>Home</Link>
         <Link to="/room" onClick={toggleMenu}>Rooms</Link>
         <Link to="/about" onClick={toggleMenu}>About</Link>
-        <Link to="/shop" onClick={toggleMenu}>Shop</Link>
-        <Link to="/pages" onClick={toggleMenu}>Pages</Link>
+        <Link to="/shop" onClick={toggleMenu}>Services</Link>
+        <Link to="/pages" onClick={toggleMenu}>Hotel Pictures</Link>
         <Link to="/news" onClick={toggleMenu}>News</Link>
         <Link to="/contact" onClick={toggleMenu}>Contact</Link>
       </div>
