@@ -29,10 +29,11 @@ const Relax = () => {
               transition={{ duration: 0.5, ease: "easeOut" }}
               viewport={{ once: true }}
             >
-              <h1>
+              {/* <h1>
                 + {counterOn && <CountUp style={{ fontSize: 55 }} start={0} end={76} duration={2} delay={0} />}
-              </h1>
-              <p>Happy Guests</p>
+              </h1> */}
+              <h1>Castle of Comfort</h1>
+              {/* <p>Happy Guests</p> */}
             </motion.div>
           </motion.div>
         </ScrollTrigger>

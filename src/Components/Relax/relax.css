@@ -28,9 +28,11 @@
      left: -20px;
 }
 .relax-suite h1{
-    font-size: 55px;
+    font-size: 25px;
     font-weight: 400;
     color: white;
+    text-align: center;
+    letter-spacing: 1px;
 }
 .relax-suite p{
     font-size: 11px;

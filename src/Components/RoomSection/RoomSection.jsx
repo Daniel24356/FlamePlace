@@ -27,12 +27,12 @@ const RoomSection = () => {
   return (
     <section className="room-sec" ref={ref}>
       {[
-        { price: "20000", imgColor: "roomprops-div", name: "LOTUS" },
+        { price: "30000", imgColor: "roomprops-div", name: "SNOWDROP" },
         { price: "20000", imgColor: "roompropss-div", name: "DAISY" },
         { price: "20000", imgColor: "roompropsss-div", name: "BLUEBELL" },
         { price: "20000", imgColor: "roompropssss-div", name: "RISE" },
-        { price: "20000", imgColor: "roompropsssss-div", name: "SNOWDROP" },
-        { price: "20000", imgColor: "roompropssssss-div", name: "LOTUS" },
+        { price: "30000", imgColor: "roompropsssss-div", name: "SNOWDROP" },
+        { price: "30000", imgColor: "roompropssssss-div", name: "SNOWDROP" },
       ].map((room, i) => (
         <motion.div
           key={room.name}
