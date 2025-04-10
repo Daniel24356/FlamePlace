@@ -1,4 +1,4 @@
-import "./RequestInput.css"
+import "./requestInput.css"
 
 const RequestInput = ({type, text, color}) => {
     const btnStyle = `${color}`
