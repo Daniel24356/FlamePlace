@@ -4,30 +4,32 @@ import RoomHero from '../../Components/RoomHero/RoomHero'
 import SingleRoom from '../../Components/SingleRoom/SingleRoom'
 import './Room.css'
 import StayAround from "../../Props/StayAround/stayAround"
-import Footer from '../../Components/Footer/footer'
+import FooterSecond from '../../Components/FooterSec/footerSec'
+import blog from "../../assets/IMG_9638.jpg"
+import blog1 from "../../assets/IMG_9682.jpg"
+import blog2 from "../../assets/IMG_9664.jpg"
 
 const Room = () => {
-    return(
+    return (
         <>
-          <section>
-            <Header/>
-            <RoomHero/>
-            <div className='room-cont'>
-            <SingleRoom/>
-            <ExtraInfo/>
-            </div>
-           
-                <div className='similar-room'>
-                <h1 className='similar-room-text'>Similar rooms</h1>
-                <div className="similar-room-div">
-                <StayAround first="New Website" imgStyle="imagefirst"/>
-                    <StayAround first="New Website" imgStyle="imagefirst"/>
-                    <StayAround first="New Website" imgStyle="imagefirst"/>
+            <section>
+                <Header />
+                <RoomHero />
+                <div className='room-cont'>
+                    <SingleRoom />
+                    <ExtraInfo />
                 </div>
-                  
+                <div id='similar-room' className='similar-room'>
+                    <h1 className='similar-room-text'>Similar Room</h1>
+                    <div className="similar-room-div">
+                        <StayAround img={blog} first="Lotus" imgStyle="imagefirst" />
+                        <StayAround img={blog1} first="Daisy" imgStyle="imagefirst" />
+                        <StayAround img={blog2} first="Rose" imgStyle="imagefirst" />
+                    </div>
                 </div>
-                <Footer/>
-          </section>
+
+                <FooterSecond />
+            </section>
         </>
     )
 }

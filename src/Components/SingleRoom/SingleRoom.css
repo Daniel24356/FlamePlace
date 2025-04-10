@@ -61,9 +61,60 @@
     font-family: Gilda Display;
     color: rgb(28, 28, 28);
     letter-spacing: 1px;
+    text-align: left;
 }
 .room-around-div{
     display: flex;
     gap: 17px;
     margin-top: 30px;
+}
+@media (max-width: 782px) {
+    .room-around-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 760px) {
+    .room-around-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 617px) {
+    .room-details{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+}
+@media (max-width: 535px) {
+    .room-doc-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 503px) {
+    .room-doc-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .room-details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .room-doc-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .room-details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        padding-left: 0px;
+    }
 }

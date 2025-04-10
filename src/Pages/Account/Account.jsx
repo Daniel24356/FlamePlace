@@ -1,4 +1,6 @@
-import Footer from "../../Components/Footer/footer"
+
+import { Link } from "react-router-dom"
+import FooterSecond from "../../Components/FooterSec/footerSec"
 import Header from "../../Components/Header/header"
 import AccountInputProps from "../../Props/AccountInputProps/AccountInputProps"
 import ButtonProps from "../../Props/ButtonProps/ButtonProps"
@@ -20,7 +22,10 @@ const Account = () => {
                  <input type="checkbox" />
                 <label>Remember Me</label>
                </div>
-              <ButtonProps color="login" label="LOG IN"/>
+               <Link to="/admin">
+               <ButtonProps color="login" label="LOG IN"/>
+               </Link>
+              
             </form>
             <form className="account-form" action="">
             <ButtonProps color="already-members" label="I DO NOT HAVE AN ACCOUNT"/>
@@ -34,7 +39,7 @@ const Account = () => {
             <ButtonProps  color="login" label="REGISTRATION"/>
             </form>
          </section>
-        <Footer/>
+        <FooterSecond/>
         </>
     )
 }

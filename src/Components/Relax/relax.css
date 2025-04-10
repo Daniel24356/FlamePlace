@@ -33,6 +33,8 @@
     color: white;
     text-align: center;
     letter-spacing: 1px;
+    line-height: 32px;
+    font-family: Gilda Display;
 }
 .relax-suite p{
     font-size: 11px;

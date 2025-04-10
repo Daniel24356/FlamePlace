@@ -44,6 +44,12 @@
     background-color: rgb(21, 21, 21);
     padding: 20px 25px;
 }
+.check-propss{
+    width: 139.979px;
+    height: 118px;
+    background-color: rgb(21, 21, 21);
+    padding: 20px 25px;
+}
 .check-txts{
     font-size: 12px;
     font-weight: 400;
@@ -62,4 +68,120 @@
     font-weight: 400;
     letter-spacing: 1px;
     color: rgb(193, 155, 118);
+}
+.icon-seb:hover{
+    cursor: pointer;
+}
+.icon-beb:hover{
+    cursor: pointer;
+}
+@media (max-width: 1219px) {
+    .check-propss{
+        width: 409.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1123px) {
+    .check-propss{
+        width: 390.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1099px) {
+    .check-propss{
+        width: 360.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1042px) {
+    .check-propss{
+        width: 360.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 837px) {
+    .check-propss{
+        width: 340.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 806px) {
+    .check-propss{
+        width: 310.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 755px) {
+    .check-propss{
+        width: 290.979px;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 725px) {
+    .check-propss{
+        width: 98%;
+        height: 158px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .check-propss{
+        width: 98%;
+        height: 128px;
+        /* background-color: rgb(21, 21, 21);
+        padding: 20px 25px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

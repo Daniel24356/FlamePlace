@@ -67,6 +67,13 @@
     font-size: 11px;
     letter-spacing: 2px;
     margin-top: 30px;
+    transition: .3s ease-in-out;
+}
+.book-now-large:hover{
+    background-color: white;
+    color: rgb(193, 155, 118);
+    cursor: pointer;
+    border: 1px solid rgb(193, 155, 118);
 }
 .book-now-small{
     width: 100.958px;
@@ -76,7 +83,31 @@
     border: none;
     font-size: 11px;
     letter-spacing: 2px;
+    transition: .3s ease-in-out;
 }
+.book-now-small:hover{
+    background-color: white;
+    color: rgb(193, 155, 118);
+    cursor: pointer;
+    border: 1px solid rgb(193, 155, 118);
+}
+.book-now-smalls{
+    width: 100.958px;
+    height: 35px;
+    color: white;
+    background-color: rgb(193, 155, 118);
+    border: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    transition: .3s ease-in-out;
+}
+.book-now-smalls:hover{
+    background-color: white;
+    color: rgb(193, 155, 118);
+    cursor: pointer;
+    border: 1px solid rgb(193, 155, 118);
+}
+
 .view-prices{
     width: 154.41px;
     height: 42px;
@@ -86,7 +117,15 @@
     background-color: rgb(193, 155, 118);
     letter-spacing: 2px;
     margin-top: 45px;
+    transition: .3s ease-in-out;
 }
+.view-prices:hover{
+    background-color: white;
+    color: rgb(193, 155, 118);
+    cursor: pointer;
+    border: 1px solid rgb(193, 155, 118);
+}
+
 .send{
     width: 705px;
     height: 42px;
@@ -97,6 +136,11 @@
     font-weight: 700;
     letter-spacing: 2px;
     margin-top: 30px;
+    transition: .3s ease-in-out;
+}
+.send:hover{
+    background-color: rgb(193, 155, 118);
+    cursor: pointer;
 }
 .contact-us{
     width: 152.281px;
@@ -137,8 +181,192 @@
     background-color: rgb(193, 155, 118);
     margin-top: 26px;
 }
+.login:hover{
+    cursor: pointer;
+}
+.contact-btn-new{
+    width: 175.885px;
+    height: 45.33px;
+    background-color: rgb(205, 162, 116);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 27px;
+    transition: .3s ease-in-out;
+}
+.contact-btn-new:hover{
+    background-color: white;
+    color: rgb(193, 155, 118);
+    cursor: pointer;
+    border: 1px solid rgb(193, 155, 118);
+}
+.book-checkout{
+    width: 175.885px;
+    height: 45.33px;
+    background-color: rgb(205, 162, 116);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 27px;
+    transition: .3s ease-in-out;
+}
+.book-checkout:hover{
+    background-color: white;
+    color: rgb(193, 155, 118);
+    cursor: pointer;
+    border: 1px solid rgb(193, 155, 118);
+}
+
+@media (max-width: 1219px) {
+    .book-now-large{
+    width: 840px;
+    height: 50px;
+    }
+}
+
+@media (max-width: 1198px) {
+    .login{
+        width: 100%;
+        height: 37.33px;
+    }
+}
+
+
+@media (max-width: 1098px) {
+    .book-now-large{
+    width: 745px;
+    height: 50px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .send{
+        width: 980px;
+    }
+}
+
+@media (max-width: 1054px) {
+    .send{
+        width: 880px;
+    }
+  }
+
+
+
+@media (max-width: 1042px) {
+    .book-now-large{
+    width: 780px;
+    height: 50px;
+    }
+}
+@media (max-width: 958px) {
+    .send{
+        width: 800px;
+    }
+  }
+
+  @media (max-width: 872px) {
+    .send{
+        width: 680px;
+    }
+  }
+
+@media (max-width: 867px) {
+    .book-now-large{
+    width: 730px;
+    height: 50px;
+    }
+}
+
+@media (max-width: 837px) {
+    .book-now-large{
+    width: 700px;
+    height: 50px;
+    }
+}
+
+@media (max-width: 806px) {
+    .book-now-large{
+    width: 650px;
+    height: 50px;
+    }
+}
+
+@media (max-width: 755px) {
+    .book-now-large{
+    width: 600px;
+    height: 50px;
+    }
+}
+
+  @media (max-width: 750px) {
+    .send{
+        width: 600px;
+    }
+  }
+
+@media (max-width: 720px) {
+    .book-now-large{
+    width: 96%;
+    height: 50px;
+    }
+}
+@media (max-width: 672px) {
+    .send{
+        width: 500px;
+    }
+  }
+
+  @media (max-width: 562px) {
+    .send{
+        width: 450px;
+    }
+  }
+
+  @media (max-width: 519px) {
+    .send{
+        width: 400px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .send{
+        width: 360px;
+    }
+ }
+
+ @media (max-width: 388px) {
+    .send{
+        width: 330px;
+    }
+ }
+
+ @media (max-width: 352px) {
+    .send{
+        width: 300px;
+    }
+ }
+
 @media (max-width: 420px) {
     .suscribe{
         width: 100px;
+    }
+    .already-member{
+        width: 280.948px;
+        height: 23px;
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+        background-color: rgb(193, 155, 118);
+        letter-spacing: 1px;
+    }
+    .already-members{
+        width: 280.948px;
+        height: 23px;
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+        background-color: rgb(193, 155, 118);
+        letter-spacing: 1px;
     }
 }

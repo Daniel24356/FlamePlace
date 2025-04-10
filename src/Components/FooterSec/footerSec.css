@@ -60,6 +60,10 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .links-wrappers{
+   display: none;
+  }
   
   .footer-links ul {
     list-style: none;
@@ -147,7 +151,7 @@
     font-size: 14px;
   }
   
-  /* 📌 Responsive Design */
+  /* Responsive Design */
   @media screen and (max-width: 900px) {
     .footer-container {
       flex-direction: column;
@@ -181,4 +185,35 @@
       display: flex;
       justify-content: center;
     }
+  }
+
+  @media screen and (max-width: 500px) {
+    .footer-container {
+     
+      padding-bottom:10px;
+    }
+
+      .footer-newsletter{
+        display: none;
+      }
+      .links-wrapper{
+        display: none;
+      }
+      
+      .links-wrappers{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .links-wrappers ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .links-wrappers ul a{
+        list-style:none;
+        text-decoration: none;
+        color: white;
+        margin: 5px 0;
+      }
   }

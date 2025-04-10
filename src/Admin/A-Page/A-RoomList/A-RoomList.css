@@ -1,0 +1,29 @@
+.room-list-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .room-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .room-table th, .room-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .room-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .booked {
+    background-color: #ffcccc;
+  }
+  
+  .available {
+    background-color: #ccffcc;
+  }
+  

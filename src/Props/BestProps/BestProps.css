@@ -5,6 +5,7 @@
 .bestProps img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }
 .bestProps div{
     display: flex;

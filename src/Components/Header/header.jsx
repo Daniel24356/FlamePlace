@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
 import HeaderProps from "../../Props/HeaderProps/HeaderProps.jsx";
@@ -14,10 +14,29 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollHeight = window.scrollY;
+      if (scrollHeight > 500) { // Adjust this value as needed
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <TopHeader />
-      <nav className="header">
+     {isFixed && <div className="header-spacer"></div>}
+      <nav className={`header ${isFixed ? "fixed" : ""}`}>
         <div>
           <img src={logo} alt="Logo" />
         </div>
@@ -32,16 +51,20 @@ const Header = () => {
             <Link to="/about" className="home-link">
               <HeaderProps label="About" color="gray" />
             </Link>
-            <HeaderProps label="Services" color="gray" />
-            <HeaderProps label="Hotel Pictures" color="gray" />
-            <HeaderProps label="News" color="gray" />
             <Link to="/contact" className="home-link">
               <HeaderProps label="Contact" color="gray" />
+            </Link>
+            <Link to="/account" className="home-link">
+              <HeaderProps label="Signup" color="gray" />
+            </Link>
+            {/* <HeaderProps label="News" color="gray" /> */}
+            <Link to="/account" className="home-link">
+              <HeaderProps label="Login" color="gray" />
             </Link>
           </div>
           <div className="book-menu">
             <div className="button-head">
-              <ButtonProps label="Book Now" color="book-now" />
+           <Link to="/booking"><ButtonProps label="Book Now" color="book-now" /></Link>   
             </div>
 
             <div className="menu" onClick={toggleMenu}>
@@ -56,10 +79,12 @@ const Header = () => {
         <Link to="/" onClick={toggleMenu}>Home</Link>
         <Link to="/room" onClick={toggleMenu}>Rooms</Link>
         <Link to="/about" onClick={toggleMenu}>About</Link>
-        <Link to="/shop" onClick={toggleMenu}>Services</Link>
-        <Link to="/pages" onClick={toggleMenu}>Hotel Pictures</Link>
-        <Link to="/news" onClick={toggleMenu}>News</Link>
+        {/* <Link to="/pages" onClick={toggleMenu}>Hotel Pictures</Link> */}
+        {/* <Link to="/news" onClick={toggleMenu}>News</Link> */}
         <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+        <Link to="/account" onClick={toggleMenu}>Login</Link>
+        <Link to="/account" onClick={toggleMenu}>SignUp</Link>
+        <Link to="/booking" onClick={toggleMenu}>Book now</Link>
       </div>
     </>
   );

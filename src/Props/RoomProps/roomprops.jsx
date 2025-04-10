@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import ButtonProps from "../ButtonProps/ButtonProps";
 import "./roomprops.css";
 import { TbCurrencyNaira } from "react-icons/tb";
 
@@ -28,11 +30,21 @@ const RoomsProps = ({ first, second, third, fourth, imgColor, color = "primary" 
                         <p>{fourth}</p>
                     </div>
                 </div>
-                <div className={btnStyle}>
-                    <TbCurrencyNaira className="naira-icon" />
-                    <p>{first}</p>
-                </div>
+             
+                <div className="price-button-div">
+                    <div className={btnStyle}>
+                        <TbCurrencyNaira className="naira-icon" />
+                        <p>{first}</p>
+                    </div> 
+                    <div className="btn-y">
+                   <Link to="/booking"><ButtonProps color="book-now-smalls" label="book-now"/></Link> 
+                    </div> 
+                    
+                    </div>
             </div>
+            <div>
+                
+                </div>
         </div>
     );
 };

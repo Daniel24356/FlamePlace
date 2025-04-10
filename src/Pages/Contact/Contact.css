@@ -4,9 +4,14 @@
 }
 .contact-form-sec{
     display: flex;
-    align-items: center;
-    gap: 70px;
+    align-items: top;
+    gap: 30px;
     padding: 60px 15px 100px 55px;
+}
+.contact-form-new{
+    height: 521.208px;
+    padding: 40px;
+    border: 1px solid gainsboro;
 }
 .contact-us-txt{
     color: rgb(92, 92, 92);
@@ -22,13 +27,152 @@
     letter-spacing: 1px;
     margin-top: 20px;
 }
-.contact-form-sec div div{
-    margin-top: 35px;
-}
-.contact-form-sec div div p{
+/* .contact-form-sec div div{
+    margin-top: 100px;
+} */
+/* .contact-form-sec div div p{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
     color: rgb(92, 92, 92);
     line-height: 28px;
+} */
+.contact-new{
+    border: 1px solid gainsboro;
+    height: 597.708px;
+    padding: 40px;
+    width: 457.5px;
 }
+.con-txt{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(205, 162, 116);
+    padding-left: 50px;
+    width: 900px;
+}
+.touch-get{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 6px;
+    color: rgb(205, 162, 116);
+    
+}
+.field-me{
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.field-inner{
+    display: flex;
+    gap: 40px;
+}
+.field-txt{
+    font-size: 13.6px;
+    color: rgb(119, 119, 119);
+    margin-top: 25px;
+}
+.address-con{
+    font-size: 16.5px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.address-under{
+    font-size: 16.5px;
+    color: rgb(51, 51, 51);
+    line-height: 27.2px;
+    margin-top: 5px;
+}
+.contact-fast{
+    display: flex;
+    align-items: start;
+}
+.icons-div-new{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+.loc-icons{
+    font-size: 50px;
+    color: rgb(205, 162, 116);
+}
+.loc-iconss{
+    font-size: 30px;
+    color: rgb(205, 162, 116);
+}
+@media (max-width: 1076px) {
+    .contact-form-sec{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        /* height: 700px; */
+    }
+    .contact-new{
+        width: 96%;
+    }
+    .con-txt{
+        font-size: 55px;
+        font-weight: 700;
+        color: rgb(205, 162, 116);
+        padding-left: 50px;
+        width: 90%;
+    }
+    .contact-form-new{
+        height: 590px;
+    }
+    .try-div{
+        width: 96%;
+    }
+  }
+ 
+  @media (max-width: 565px) {
+     .contact-top{
+        margin-top: 100px;
+     }
+     .con-txt{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(205, 162, 116);
+        padding-left: 50px;
+        width: 90%;
+    }
+    .contact-form-sec{
+        display: flex;
+        align-items: top;
+        gap: 30px;
+        padding: 60px 15px 100px 30px;
+    }
+
+  }
+  @media (max-width: 440px) {
+    .contact-form-sec{
+        padding: 60px 15px 100px 20px;
+    }
+ }
+ @media (max-width: 400px) {
+    .contact-form-sec{
+        padding: 30px 15px 100px 18px;
+    }
+    .con-txt{
+        line-height: 53px;
+        font-size: 38px;
+        width: 90%;
+    }
+    .contact-new{
+        width: 100%;
+        padding: 40px 30px;
+    }
+    .contact-form-new{
+        height: 590px;
+        padding: 40px 40px;
+    }
+    .try-div{
+        width: 100%;
+    }
+    .field-me{
+        margin-top: 65px;
+    }
+ }

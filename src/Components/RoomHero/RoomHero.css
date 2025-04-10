@@ -7,7 +7,7 @@
     gap: 30px;
     align-items: end;
     justify-content: baseline;
-    padding: 10px 50px;
+    padding: 20px 50px;
 }
 .room-box{
     display: flex;
@@ -23,7 +23,7 @@
     color: white;
 }
 .room-price-txt h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     color: white;
     font-family: Gilda Display;
@@ -32,4 +32,57 @@
 .room-left{
     display: flex;
     gap: 30px;
+}
+@media (max-width: 609px) {
+    .room-left{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+    }
+    .room-price-txt h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        font-family: Gilda Display;
+        letter-spacing: 1px;
+    }
+    .room-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (max-width: 577px) {
+    .room-left{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+    }
+    .room-price-txt h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        font-family: Gilda Display;
+        letter-spacing: 1px;
+    }
+}
+@media (max-width: 534px) {
+    .room-left{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       gap: 10px;
+    }
+    .room-price-txt h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        font-family: Gilda Display;
+        letter-spacing: 1px;
+    }
+    .room-box{
+        flex-direction: column;
+        gap: 30px;
+    }
 }

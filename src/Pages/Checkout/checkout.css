@@ -1,0 +1,115 @@
+.checkout-divs{
+    /* margin-top: 60px;
+    margin-left: 250px; */
+    margin: 60px auto 0px auto;
+    width: 760px;
+}
+.checkout-info{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    font-family: Gilda Display;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.checkout-innerdiv{
+    display: flex;
+    gap: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.checkout-name{
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-family: Roboto;
+    margin-top: 5px;
+}
+.checkout-new{
+    margin-top: 30px;
+}
+.checkout-name-span{
+    color: rgb(28, 28, 28);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-size: Roboto;
+}
+.payment-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-family: Gilda Display;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 24px;
+    overflow-x: auto;
+  }
+  
+  .tab-btn {
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: Roboto;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    color: rgb(107, 105, 105);
+    transition: all 0.2s ease;
+  }
+  
+  .tab-btn:hover {
+    color: #000;
+  }
+  
+  .tab-btn.active {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+  }
+  
+  .tab-content {
+    padding: 16px;
+    border-radius: 8px;
+  }
+  @media (max-width: 824px) {
+    .checkout-divs{
+      width: 85%;
+      margin-left: 20px;
+    }
+    .checkout-innerdiv{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      row-gap: 50px;
+      column-gap: 50px;
+    }
+ }
+ @media (max-width: 463px) {
+  .tab-btn {
+    background: none;
+    border: none;
+    font-size: 12px;
+    font-weight: Roboto;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    color: rgb(107, 105, 105);
+    transition: all 0.2s ease;
+  }
+}

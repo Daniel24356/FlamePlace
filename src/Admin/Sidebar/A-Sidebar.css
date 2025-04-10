@@ -1,0 +1,40 @@
+.Asidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+    width: 310px;
+    /* height: 100vh; */
+}
+.sidebar-fixed{
+     display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 310px;
+    /* width: 20%; */
+     height: 100vh;
+    position: fixed;
+}
+.Asidebar-under{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding: 0 20px;
+    /* width: 20%; */
+    /* height: 100vh;
+    position: fixed; */
+}
+
+.Asidebar-under div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(109, 109, 110);
+}
+.side-link{
+    text-decoration: none;
+    color: rgb(109, 109, 110);
+}
+.sidebar-icons{
+    font-size: 20px;
+}

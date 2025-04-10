@@ -18,3 +18,115 @@
     font-weight: 400;
     font-family: Gilda Display;
 }
+.similar-room-subtext{
+    color: rgb(28, 28, 28);
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width: 1214px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 120px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding: 50px 120px;
+    }
+}
+@media (max-width: 1058px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 60px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding: 50px 60px;
+    }
+}
+
+@media (max-width: 966px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 771px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width: 760px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 442px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding: 50px 20px;
+    }
+}
+@media (max-width: 400px) {
+    .room-cont{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    .similar-room-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        row-gap: 40px;
+    }
+    .similar-room{
+        padding:10px 20px;
+    }
+}

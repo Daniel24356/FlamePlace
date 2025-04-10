@@ -1,20 +1,29 @@
 .stayWalk-div{
-    background-image: url(../../assets/IMG_9691.jpg);
+    background-image: url(../../assets/IMG_9715.jpg);
     background-size: cover;
     background-position: center;
-    height: 428.219px;
-    width: 379.958px;
+    height: 345px;
+    width: 243px;
     display: flex;
     justify-content: end;
     flex-direction: column;
     padding: 40px 30px;
 }
+.stayWalk-div:hover{
+   cursor: pointer;
+}
+.stayWalk-divs:hover{
+   cursor: pointer;
+}
+.stayWalk-divss:hover{
+   cursor: pointer;
+}
 .stayWalk-divs{
-    background-image: url(../../assets/IMG_9691.jpg);
+    background-image: url(../../assets/IMG_9710.jpg);
     background-size: cover;
-    background-position: center;
-    height: 330.146px;
-    width: 379.958px;
+    background-position: left;
+    height: 345px;
+    width: 243px;
     display: flex;
     justify-content: end;
     flex-direction: column;
@@ -44,6 +53,7 @@
     font-family: Gilda Display;
     color: white;
     margin-top: 10px;
+    text-align: left;
 }
 .stayWalk-divs p{
     font-size: 13px;
@@ -58,6 +68,7 @@
     font-family: Gilda Display;
     color: white;
     margin-top: 10px;
+    text-align: left;
 }
 .stayWalk-divss p{
    font-size: 13px;
@@ -72,30 +83,67 @@
    font-family: Gilda Display;
    color: white;
    margin-top: 10px;
+   text-align: left;
 }
 
-@media (max-width: 1188px) {
-    .stayWalk-div{
-      width: 300px;
+@media (max-width: 1219px) {
+   .stayWalk-div{
+      width: 550px;
     }
     .stayWalk-divs{
-        width: 300px;
+      width: 550px;
+      height: 428.219px;
     }
-   }
- 
-   @media (max-width: 1134px) {
-    .stayWalk-div{
-        width: 379.9px;
+    .stayWalk-divss{
+      width: 550px;
+      height: 428.219px;
     }
-   }
+}
 
-@media (max-width: 817px) {
+@media (max-width: 782px) {
    .stayWalk-div{
-     width: 600px;
-   }
-  }
+      width: 350px;
+    }
+    .stayWalk-divs{
+      width: 350px;
+      height: 428.219px;
+    }
+    .stayWalk-divss{
+      width: 350px;
+      height: 428.219px;
+    }
+  } 
 
-  @media (max-width: 682px) {
+  @media (max-width: 760px) {
+   .stayWalk-div{
+      width: 700px;
+      height: 500px;
+    }
+    .stayWalk-divs{
+      width: 700px;
+      height: 500px;
+    }
+    .stayWalk-divss{
+      width: 700px;
+      height: 500px;
+    }
+  } 
+  @media (max-width: 745px) {
+   .stayWalk-div{
+      width: 98%;
+      height: 500px;
+    }
+    .stayWalk-divs{
+      width: 98%;
+      height: 500px;
+    }
+    .stayWalk-divss{
+      width: 98%;
+      height: 500px;
+    }
+  } 
+
+  /* @media (max-width: 682px) {
      .stayWalk-div{
         width: 550px;
      }
@@ -117,7 +165,7 @@
    .stayWalk-div{
       width: 440px;
    }
-}
+} */
 
  @media (max-width: 446px) {
     .stayWalk-div{
@@ -126,8 +174,17 @@
  }
 
  @media (max-width: 415px) {
-    .stayWalk-div{
-       width: 350px;
+   .stayWalk-div{
+      width: 98%;
+      height: 400px;
+    }
+    .stayWalk-divs{
+      width: 98%;
+      height: 400px;
+    }
+    .stayWalk-divss{
+      width: 98%;
+      height: 400px;
     }
  }
 

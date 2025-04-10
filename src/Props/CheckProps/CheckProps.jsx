@@ -4,7 +4,7 @@ const CheckProps = (
     { checkText, dateText, monthDate, icon, color = 'gray', secondColor, firstColor, thirdColor }
 ) => {
     const btnStyle = `header-txt ${color} }`;
-    const textStyle = `header-txt ${secondColor} }`;
+    const textStyle = `header-txt icon-beb ${secondColor} }`;
     const textStyles = `header-txt ${firstColor} }`;
     const textStyless = `header-txt ${thirdColor} }`;
     return(
@@ -15,7 +15,7 @@ const CheckProps = (
             <h1 className={textStyless}>{dateText}</h1>
             <div className="">
                 <p className={textStyle}>{monthDate}</p>
-                <p>{icon}</p>
+                <p className="icon-seb">{icon}</p>
             </div>
             </div>
         </div>

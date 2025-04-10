@@ -39,6 +39,10 @@
     z-index: 2; /* Ensure it's above the dark overlay */
 }
 
+/* .price-button-div{
+    display: flex;
+} */
+
 .room-name {
     font-size: 20px;
     font-weight: 400;
@@ -105,7 +109,7 @@
 
 
 .roomprops-div{
-    background-image: url(../../assets/IMG_9580.jpg);
+    background-image: url(../../assets/IMG_1950.png);
 }
 .room-info p{
     font-size: 13px;
@@ -158,7 +162,7 @@
     background-image: url(../../assets/IMG_9682.jpg);
 }
 .roompropssss-div{
-    background-image: url(../../assets/IMG_9664.jpg);
+    background-image: url(../../assets/IMG_9633.jpg);
 }
 .roompropsssss-div{
     background-image: url(../../assets/IMG_9599.jpg);
@@ -200,6 +204,13 @@
     align-items: center; 
     gap: 5px;
 }
+.btn-y{
+    position: absolute;
+    /* top: 20px; */
+    /* right: 0; */
+    left: 150px;
+    bottom: -15px;
+}
 .naira-icon{
     color: white;
 }
@@ -233,9 +244,10 @@
     font-weight: 400;
     color: white;
 }
-
-
-
+.price-button-div{
+    display: flex;
+    gap: 20px;
+}
 @media (max-width: 1154px) {
     .room-card{
         width: 320px;

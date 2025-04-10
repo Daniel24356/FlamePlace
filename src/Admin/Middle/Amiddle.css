@@ -1,0 +1,15 @@
+.Amiddle{
+   background-color: rgb(248,248,248);
+   padding: 50px 40px;
+   /* width: 100%; */
+}
+.middle-div{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 600px) {
+   .middle-div{
+    flex-direction: column;
+   }
+  }

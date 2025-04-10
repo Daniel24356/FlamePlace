@@ -1,0 +1,24 @@
+.Afirst{
+    display: flex;
+    gap: 25px;
+}
+.bed-icons{
+    font-size: 30px;
+    color:rgb(229,75,64);
+}
+@media screen and (max-width: 600px) {
+    .Afirst{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media screen and (max-width: 440px) {
+    .Afirst{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    .bed-icons{
+        font-size: 50px;
+        color:rgb(229,75,64);
+    }
+  }

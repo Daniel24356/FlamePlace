@@ -1,0 +1,128 @@
+.booking-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+ .booking-container  h2 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color:rgb(91, 98, 107) ;
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .booking-table th, .booking-table td {
+    padding: 18px 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .booking-table th {
+    background-color: rgb(245,245,245);
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  .booking-table tbody tr td{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .booking-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .status {
+    font-weight: bold;
+    /* padding: 0 10px; */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    height: 5px;
+  }
+  
+  .status.paid {
+    color: green;
+    border: 1px solid green;
+    /* width: 50px; */
+    
+  }
+  
+  .status.pending {
+    color: #f39c12;
+    /* background-color: #f39c12; */
+    border: 1px solid #f39c12;
+  }
+  
+  .status.unpaid {
+    color: #e74c3c;
+    /* background-color: #e74c3c; */
+    /* width: 80px; */
+    border: 1px solid #e74c3c;
+  }
+  
+  .status.canceled {
+    color: #95a5a6;
+    /* background-color: #95a5a6; */
+    border: 1px solid #95a5a6;
+  }
+  
+  .view-btn, .edit-btn {
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .view-btn {
+    background-color: #3498db;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .view-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .edit-btn {
+    background-color: #e67e22;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #d35400;
+  }
+  
+  @media (max-width: 768px) {
+    .booking-container {
+      padding: 10px;
+    }
+  
+    .booking-table th, .booking-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .view-btn, .edit-btn {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  }
+  

@@ -28,3 +28,13 @@
     letter-spacing: 1px;
     color: rgb(92, 92, 92);
 }
+@media (max-width: 1198px) {
+    .Account-sec{
+        flex-direction: column;
+    }
+ }
+ @media (max-width: 500px) {
+    .Account-sec{
+        padding: 120px 15px;
+    }
+ }

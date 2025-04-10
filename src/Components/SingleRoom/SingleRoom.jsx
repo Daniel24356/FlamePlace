@@ -1,71 +1,78 @@
-import SmartProps from "../../Props/SmartProps/SmartProps"
-import DocProps from "../../Props/DocProps/DocProps"
-import StayWalk from "../../Props/StayWalk/stayWalk"
-import "./SingleRoom.css"
-import starImg from "../../assets/star-img.png"
-import roomImg from "../../assets/IMG_9715.jpg"
-import userImg from "../../assets/user.svg"
-import television from "../../assets/television.png"
+import SmartProps from "../../Props/SmartProps/SmartProps";
+import DocProps from "../../Props/DocProps/DocProps";
+import StayWalk from "../../Props/StayWalk/stayWalk";
+import "./SingleRoom.css";
+import starImg from "../../assets/star-img.png";
+import roomImg1 from "../../assets/IMG_9599.jpg";
+import roomImg2 from "../../assets/IMG_9595.jpg";
+import roomImg3 from "../../assets/IMG_9603.jpg";
+import roomImg4 from "../../assets/IMG_9600.jpg";
+import userImg from "../../assets/user.svg";
+import television from "../../assets/television.png";
+import RoomImageSlider from "../RoomImageSlider/RoomImageSlider";
 
 const SingleRoom = () => {
-    return(
+    const images = [roomImg1, roomImg2, roomImg3, roomImg4];
+
+    return (
         <>
-        <section>
-            <div className="single-room-text-div">
-            <h1>Small Room</h1>
-            <div>
-                <p>HOTEL ROME</p>
-                <img src={starImg} alt="" />
-            </div>
-            </div>
-            
-            <div className="single-div">
-                <div className="room-img">
-                  <img src={roomImg} alt="" />
+            <section>
+                <div className="single-room-text-div">
+                    <h1>SnowDrop</h1>
+                    <div>
+                        <p>FAME'S PLACE HOTEL</p>
+                        <img src={starImg} alt="Rating Stars" />
+                    </div>
                 </div>
 
-                <div className="room-details">
-                    <SmartProps img={userImg} color="smartPropss" first="1 GUESTS"/>
-                    <SmartProps img={userImg} color="smartPropss" first="15 ft"/>
-                    <SmartProps img={userImg} color="smartPropss" first="56$ / PER NIGHT"/>
-                    <SmartProps img={userImg} color="smartPropss" first="WEEK PRICE"/>
-                </div>
+                <div className="single-div">
+                    <div>
+                        <RoomImageSlider images={images} />
+                    </div>
 
-                <div className="single-room-text">
-                    <p>Cras malesuada mauris tortor, id tempus mauris blandit sit amet. Morbi a velit efficitur, porttitor metus et,</p>
-                    <p>interdum nunc. Phasellus ut elementum diam. Aliquam erat volutpat. Nunc et facilisis elit. Donec</p>
-                    <p>consectetur nibh vel gravida aliquet. Suspendisse sit amet lectus tristique, condimentum libero vel, porta</p>
-                    <p>justo. Proin sit amet porta nibh. Pellentesque leo lorem, blandit quis hendrerit a, suscipit dapibus nulla.</p>
-                    <p>Aenean ut facilisis felis. Cras tincidunt elementum neque, id viverra magna viverra et. Nam tincidunt urna</p>
-                    <p>sed urna vehicula fringilla. Curabitur bibendum dictum nunc, ut elementum nibh efficitur gravida. Phasellus</p>
-                    <p>luctus scelerisque libero, nec lobortis tortor volutpat at. Nam vitae turpis in est tristique placerat id sed</p>
-                    <p>tortor. Vivamus luctus sed nibh ac cursus. Sed vel ligula non risus tempus fermentum.</p>
-                </div>
+                    <div id="description" className="room-details">
+                        <SmartProps img={userImg} color="smartPropss" first="1 GUEST" />
+                        <SmartProps img={userImg} color="smartPropss" first="15 ft² Space" />
+                        <SmartProps img={userImg} color="smartPropss" first="₦30,000 / NIGHT" />
+                        <SmartProps img={userImg} color="smartPropss" first="Weekly Discount Available" />
+                    </div>
 
-                <div className="room-me-service">
-                <h2 className="room-service-txt">Room Services</h2>
-                <div className="room-doc-div">
-                    <DocProps img={television} label="Swimming Pool"/>
-                    <DocProps img={television} label="Television"/>
-                    <DocProps img={television} label="No Smoking"/>
-                    <DocProps img={television} label="Private Bathroom"/>
+                    <div className="single-room-text">
+                        <p>
+                            Experience luxury in our elegant SnowDrop Suite, designed for travelers seeking comfort and
+                            style. With modern interiors and a serene ambiance, this room is perfect for a restful stay.
+                        </p>
+                        <p>
+                            Featuring premium bedding, soundproof windows, and a work-friendly space, the suite is ideal
+                            for both leisure and business travelers. Enjoy complimentary Wi-Fi, air-conditioning, and 24/7 room service.
+                        </p>
+                        <p>
+                            Unwind with access to our exclusive lounge and wellness spa. Whether you're here for a night or an extended stay, Fame's Place Hotel ensures a memorable experience.
+                        </p>
+                    </div>
+
+                    <div id="room-service" className="room-me-service">
+                        <h2 className="room-service-txt">Room Amenities</h2>
+                        <div className="room-doc-div">
+                            <DocProps img={television} label="Smart TV with Netflix" />
+                            <DocProps img={television} label="High-Speed Wi-Fi" />
+                            <DocProps img={television} label="Complimentary Breakfast" />
+                            <DocProps img={television} label="Private Ensuite Bathroom" />
+                        </div>
+                    </div>
+
+                    <div id="around-hotel" className="room-me-service">
+                        <h2 className="room-service-txt">Explore The Hotel</h2>
+                        <div className="room-around-div">
+                            <StayWalk first="Lounge" color="stayWalk-div" />
+                            <StayWalk first="Reception" color="stayWalk-divs" />
+                            <StayWalk first="Bar" color="stayWalk-divss" />
+                        </div>
+                    </div>
                 </div>
-                </div>
-                
-                <div className="room-me-service">
-                <h2 className="room-service-txt">Around The Hotel</h2>
-                <div className="room-around-div">
-                    <StayWalk first="Relax Zone" color="stayWalk-divss"  />
-                    <StayWalk first="Relax Zone" color="stayWalk-divss"  />
-                    <StayWalk first="Relax Zone" color="stayWalk-divss"  />
-                </div>
-                </div>
-                
-               
-            </div>
-        </section>
+            </section>
         </>
-    )
-}
+    );
+};
 
-export default SingleRoom
+export default SingleRoom;

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -26,13 +26,25 @@ const responsive = {
 
 const images = [img1, img6, img10, img9, img8, img3, img4, img11, img5, img7, img12, img2];
 
+// Animation Variants (Defined Outside)
 const fadeInVariant = {
   hidden: { opacity: 0, scale: 0.9 },
   show: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
 const Gallery = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  const isHovered = useRef(false);
+  const [hoverState, setHoverState] = useState(false); // Controls animation without re-rendering too often
+
+  const handleMouseEnter = useCallback(() => {
+    isHovered.current = true;
+    setHoverState(true);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    isHovered.current = false;
+    setHoverState(false);
+  }, []);
 
   const ButtonGroup = ({ next, previous, carouselState }) => {
     const { currentSlide, totalItems, slidesToShow } = carouselState;
@@ -40,13 +52,17 @@ const Gallery = () => {
     return (
       <motion.div
         className="button-group"
-        animate={{ opacity: isHovered ? 1 : 0 }}
+        animate={{ opacity: hoverState ? 1 : 0 }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
         <button className="custom-arrow left" onClick={previous} disabled={currentSlide === 0}>
           <FaChevronLeft size={30} />
         </button>
-        <button className="custom-arrow right" onClick={next} disabled={currentSlide + slidesToShow >= totalItems}>
+        <button
+          className="custom-arrow right"
+          onClick={next}
+          disabled={currentSlide + slidesToShow >= totalItems}
+        >
           <FaChevronRight size={30} />
         </button>
       </motion.div>
@@ -57,11 +73,7 @@ const Gallery = () => {
     <section className="skill" id="gallery">
       <div className="skill-bx">
         <h2>Our Gallery</h2>
-        <div
-          className="carousel-container"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
+        <div className="carousel-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
           <Carousel
             responsive={responsive}
             infinite={true}

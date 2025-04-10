@@ -1,0 +1,56 @@
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .dashboard-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .booked {
+    background-color: #ffcccc; /* Light red for booked rooms */
+  }
+  
+  .available {
+    background-color: #ccffcc; /* Light green for available rooms */
+  }
+  
+  .checked-in {
+    background-color: #ccffcc; /* Light green for checked-in guests */
+  }
+  
+  .checked-out {
+    background-color: #f4f4f4; /* Light gray for checked-out guests */
+  }
+  
+  .pending {
+    background-color: #ffeb99; /* Light yellow for pending guests */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+  }
+  

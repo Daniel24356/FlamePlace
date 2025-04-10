@@ -1,10 +1,10 @@
 import "./HeaderProp.css"
 
-const HeaderProps = ({ label, color = 'gray' }) => {
+const HeaderProps = ({ label, color = 'gray', onClick }) => {
     const btnStyle = `header-txt ${color} }`;
     return(
         <>
-         <p className={btnStyle}>{label}</p>
+         <p onClick={onClick} className={btnStyle}>{label}</p>
         </>
     )
 }

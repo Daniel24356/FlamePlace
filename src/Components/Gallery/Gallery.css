@@ -156,6 +156,21 @@
         margin-right: 0px; /* Remove unnecessary margin */
     }
 }
-  
-  /* Adjust spacing for 3 items per row */
+
+@media (max-width: 376px) {
+  .skill {
+      padding: 50px 20px 100px 20px; 
+  }
+}
+@media (max-width: 364px) {
+  .skill {
+      padding: 50px 20px 100px 10px; 
+  }
+}
+@media (max-width: 345px) {
+  .skill {
+      padding: 50px 20px 100px 3px; 
+  }
+}
+
  

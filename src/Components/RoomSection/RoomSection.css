@@ -6,7 +6,7 @@
     /* margin: auto; */
     padding: 0px 70px;
 }
-@media (max-width: 1154px) {
+@media (max-width: 1165px) {
    .room-sec{
       padding: 0px 40px;
    }
@@ -30,7 +30,7 @@
        padding: 0px 120px;
     }
  }
- @media (max-width: 978px) {
+ @media (max-width: 984px) {
      .room-sec{
       padding: 0px 70px;
      }
@@ -115,6 +115,12 @@
 @media (max-width: 451px) {
    .room-sec{
       padding: 100px 12px;
+   }
+}
+
+@media (max-width: 442px) {
+   .room-sec{
+      padding: 110px 22px;
    }
 }
 
