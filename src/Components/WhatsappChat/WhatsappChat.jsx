@@ -1,4 +1,4 @@
-import "./WhatsAppChat.css";
+import "./WhatsappChat.css";
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppChat = () => {
