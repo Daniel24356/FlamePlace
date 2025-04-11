@@ -5,7 +5,6 @@ import Room from './Pages/Room/Room'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
 import Account from './Pages/Account/Account'
-import SEOComponent from './Components/SEOComponent/SEOComponent'
 import NotFound from './Pages/NotFound/NotFound'
 import AdminDashboard from './Admin/Admin-Dashboard/AdminDashboard'
 import GuestList from './Admin/A-Page/A-GuestList/A-GuestList'
@@ -17,7 +16,7 @@ import Checkout from './Pages/Checkout/checkout'
 function App() {
   return (
     <>
-    <SEOComponent/>
+    {/* <SEOComponent/> */}
     <Router>
       <Routes>  
         <Route path='/' element={<Home/>}/>
