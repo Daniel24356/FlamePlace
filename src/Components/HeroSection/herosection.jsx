@@ -6,9 +6,9 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./herosection.css";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-import image1 from "../../assets/IMG_9725.jpg";
-import image2 from "../../assets/IMG_9736.jpg";
-import image3 from "../../assets/IMG_9734.jpg";
+import image1 from "../../assets/barca.webp";
+import image2 from "../../assets/borabora.jpg";
+import image3 from "../../assets/argentina.jpg";
 
 const images = [image1, image2, image3];
 
