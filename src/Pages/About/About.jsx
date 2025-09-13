@@ -31,10 +31,10 @@ const About = () => {
          <div className="about-banner">
   <div className="about-banner-overlay"></div> {/* Dark overlay */}
   <div className="about-banner-content">
-    <h1>Experience Luxury at Fame's Place</h1>
+    <h1>Experience Luxury at Hotel Haven</h1>
     <div>
       <p>Indulge in world-class hospitality, where elegance meets comfort.</p>
-      <p>At Fame's Place, every moment is crafted to offer you a memorable stay.</p>
+      <p>At Hotel Haven, every moment is crafted to offer you a memorable stay.</p>
       <p>Join us for an exquisite dining experience, surrounded by refined ambiance.</p>
     </div>
     <ButtonProps color="contact-us" label="Book Your Stay" />

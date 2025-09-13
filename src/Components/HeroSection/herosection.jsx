@@ -9,6 +9,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import image1 from "../../assets/barca.webp";
 import image2 from "../../assets/borabora.jpg";
 import image3 from "../../assets/argentina.jpg";
+import { Link } from "react-router-dom";
 
 const images = [image1, image2, image3];
 
@@ -62,7 +63,7 @@ const HeroSection = () => {
           </div>
 
           <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, delay: 1.5 }}>
-            <ButtonProps label="ROOMS & SUITES" color="room-suites" />
+          <Link to="/room"><ButtonProps label="ROOMS & SUITES" color="room-suites" /></Link>  
           </motion.div>
         </div>
 

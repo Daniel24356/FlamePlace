@@ -5,9 +5,9 @@ import SingleRoom from '../../Components/SingleRoom/SingleRoom'
 import './Room.css'
 import StayAround from "../../Props/StayAround/stayAround"
 import FooterSecond from '../../Components/FooterSec/footerSec'
-import blog from "../../assets/IMG_9638.jpg"
-import blog1 from "../../assets/IMG_9682.jpg"
-import blog2 from "../../assets/IMG_9664.jpg"
+import blog from "../../assets/image-1.jpg"
+import blog1 from "../../assets/image-2.jpg"
+import blog2 from "../../assets/ukhotel.jpg"
 
 const Room = () => {
     return (

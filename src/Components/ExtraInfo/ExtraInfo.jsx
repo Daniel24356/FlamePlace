@@ -8,9 +8,9 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./ExtraInfo.css";
 import doc from "../../assets/pdf-gold.svg";
-import room from "../../assets/IMG_9638.jpg";
-import room1 from "../../assets/IMG_9682.jpg";
-import room2 from "../../assets/IMG_9664.jpg";
+import room from "../../assets/image-1.jpg";
+import room1 from "../../assets/image-2.jpg";
+import room2 from "../../assets/ukhotel.jpg";
 import { Link } from "react-router-dom";
 
 const ExtraInfo = () => {
@@ -130,9 +130,9 @@ const ExtraInfo = () => {
         <div className="room-service-top">
           <h2 className="room-service-txt">Luxurious Stays</h2>
           <div className="best-div">
-            <BestProps img={room} first="Daisy" second="From ₦20,000 per night" />
-            <BestProps img={room1} first="BlueBell" second="From ₦20,000 per night" />
-            <BestProps img={room2} first="Rose" second="From ₦20,000 per night" />
+            <BestProps img={room} first="Daisy" second="From ₦92,000 per night" />
+            <BestProps img={room1} first="BlueBell" second="From ₦75,000 per night" />
+            <BestProps img={room2} first="Rose" second="From ₦81,200 per night" />
           </div>
         </div>
 

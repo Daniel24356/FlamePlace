@@ -16,7 +16,7 @@ const ASidebar = () => {
                 <div className="admin-logo-div">
                     <img className="Admin-logo" src={logo} alt="" />
                     <div className="aheader-logo-txt">
-                        <h3>Fame's Place</h3>
+                        <h3>Hotel Haven</h3>
                         <p>Admin Dashboard</p>
                     </div>
                 </div>

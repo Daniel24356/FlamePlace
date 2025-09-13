@@ -12,7 +12,7 @@ const FooterSecond = () => {
         <div className="footer-about">
             <img className="footer-second-img" src={logo} alt="Hotel Logo" />
           <p>
-          Experience the ultimate in luxury and comfort at Fame's Place, located in the heart of Woji, PH. Indulge in world-class hospitality and serene ambiance.
+          Experience the ultimate in luxury and comfort at Hotel Haven, located in the heart of Lekki, Lagos. Indulge in world-class hospitality and serene ambiance.
           </p>
           <a href="#" className="read-mores">EXPLORE MORE →</a>
         </div>
@@ -66,11 +66,11 @@ const FooterSecond = () => {
             <a href="#"><FaYoutube /></a>
           </div>
 
-          <p className="copyright">Fame's Place - Elevating Hospitality</p>
+          <p className="copyright">Hotel Haven - Elevating Hospitality</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>©️ {new Date().getFullYear()} Fame's Place. All rights reserved.</p>
+        <p>©️ {new Date().getFullYear()} Hotel Haven. All rights reserved.</p>
       </div>
     </footer>
         </>

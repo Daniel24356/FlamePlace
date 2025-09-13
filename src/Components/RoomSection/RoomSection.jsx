@@ -4,12 +4,12 @@ import RoomsProps from "../../Props/RoomProps/roomprops";
 import "./RoomSection.css";
 
 const roomData = [
-  { price: "20000", imgColor: "roomprops-div", name: "LOTUS" },
-  { price: "20000", imgColor: "roompropss-div", name: "DAISY" },
-  { price: "20000", imgColor: "roompropsss-div", name: "BLUEBELL" },
-  { price: "20000", imgColor: "roompropssss-div", name: "ROSE" },
-  { price: "30000", imgColor: "roompropsssss-div", name: "SNOWDROP" },
-  { price: "30000", imgColor: "roompropssssss-div", name: "SNOWDROP" },
+  { price: "90000", imgColor: "roomprops-div", name: "LOTUS" },
+  { price: "64000", imgColor: "roompropss-div", name: "DAISY" },
+  { price: "71000", imgColor: "roompropsss-div", name: "BLUEBELL" },
+  { price: "87500", imgColor: "roompropssss-div", name: "ROSE" },
+  { price: "59000", imgColor: "roompropsssss-div", name: "SNOWDROP" },
+  { price: "82000", imgColor: "roompropssssss-div", name: "SNOWFALL" },
 ];
 
 // Animation Variants (Defined Outside)

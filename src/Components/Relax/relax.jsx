@@ -33,7 +33,7 @@ const Relax = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <p className="hotel-txt">FAME'S PLACE</p>
+          <p className="hotel-txt">HOTEL HAVEN</p>
           <div className="relax-our">
             <h1>Relax in our</h1>
             <h1>Hotel Resort</h1>
@@ -41,10 +41,10 @@ const Relax = () => {
 
           {/* Text Section */}
           <div className="text-div">
-            <TextProps first="Welcome to Fame's Place, where luxury" second="meets comfort in the heart of Woji, PH" third="Designed to offer a perfect blend of elegance." />
-            <TextProps first="At Fame's Place, we believe in creating more" second="than just a stay—we curate unforgettable " third="moments." />
+            <TextProps first="Welcome to Hotel Haven, where luxury" second="meets comfort in the heart of Lekki, Lagos" third="Designed to offer a perfect blend of elegance." />
+            <TextProps first="At Hotel Haven, we believe in creating more" second="than just a stay—we curate unforgettable " third="moments." />
             <TextProps first="Indulge in exquisite dining at our on-site " second="restaurant, unwind in our serene spa" third="and our bar." />
-            <TextProps first="Come experience hospitality" second="redefined—Fame's Place, where" third="every guest is treated like family." />
+            <TextProps first="Come experience hospitality" second="redefined—Hotel Haven, where" third="every guest is treated like family." />
           </div>
 
           {/* Profile & Signature Section */}

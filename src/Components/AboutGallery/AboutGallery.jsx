@@ -1,14 +1,14 @@
 import React from "react";
 import "./AboutGallery.css";
 import img from "../../assets/IMG_9638.jpg"
-import img1 from "../../assets/IMG_9580.jpg"
-import img2 from "../../assets/IMG_9715.jpg"
-import img3 from "../../assets/IMG_9725.jpg"
-import img4 from "../../assets/IMG_9710.jpg"
+import img1 from "../../assets/image-1.jpg"
+import img2 from "../../assets/barca.webp"
+import img3 from "../../assets/barca.jpg"
+import img4 from "../../assets/reception-1.jpeg"
 import img5 from "../../assets/IMG_9691.jpg"
-import img6 from "../../assets/IMG_9734.jpg"
-import img7 from "../../assets/IMG_9682.jpg"
-import img8 from "../../assets/IMG_9664.jpg"
+import img6 from "../../assets/security-2.jpeg"
+import img7 from "../../assets/ukhotel.jpg"
+import img8 from "../../assets/tahitihotel.jpg"
 
 const AboutGallery = () => {
   return (

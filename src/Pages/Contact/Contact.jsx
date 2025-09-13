@@ -59,14 +59,14 @@ const Contact = () => {
                        <FaPhoneAlt className="loc-iconss"/>
                        <div>
                        <p className="address-con"> PHONE/FAX</p>
-                       <p className="address-under">Calls Us: +234 9079049309</p>
+                       <p className="address-under">Calls Us: +234 7073477755</p>
                        </div>
                     </div>
                     <div className="field-inner">
                         <MdEmail className="loc-icons"/>
                         <div>
                         <p className="address-con">E-MAIL</p>
-                        <p className="address-under">famesplace@gmail.com</p>
+                        <p className="address-under">igwedaniel128@gmail.com</p>
                         </div>
                     </div>
                     </div>

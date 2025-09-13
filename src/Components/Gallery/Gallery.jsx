@@ -4,18 +4,18 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./Gallery.css";
-import img1 from "../../assets/IMG_9725.jpg";
-import img2 from "../../assets/IMG_9691.jpg";
-import img3 from "../../assets/IMG_9603.jpg";
-import img4 from "../../assets/IMG_9600.jpg";
-import img5 from "../../assets/IMG_9586.jpg";
-import img6 from "../../assets/IMG_9736.jpg";
-import img7 from "../../assets/IMG_9593.jpg";
-import img8 from "../../assets/IMG_9595.jpg";
-import img9 from "../../assets/IMG_9682.jpg";
-import img10 from "../../assets/IMG_9715.jpg";
-import img11 from "../../assets/IMG_9619.jpg";
-import img12 from "../../assets/IMG_9710.jpg";
+import img1 from "../../assets/image-1.jpg";
+import img2 from "../../assets/francehotel.jpg";
+import img3 from "../../assets/room-1.jpeg";
+import img4 from "../../assets/tahitihotel.jpg";
+import img5 from "../../assets/ukhotel.jpg";
+import img6 from "../../assets/image-2.jpg";
+import img7 from "../../assets/img-26.jpeg";
+import img8 from "../../assets/tokyo.jpg";
+import img9 from "../../assets/resort1.jpg";
+import img10 from "../../assets/resort3.jpg";
+import img11 from "../../assets/malawi.jpg";
+import img12 from "../../assets/mauritius.jpg";
 
 const responsive = {
   superLargeDesktop: { breakpoint: { max: 4000, min: 3000 }, items: 3 },

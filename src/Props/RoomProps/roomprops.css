@@ -109,7 +109,7 @@
 
 
 .roomprops-div{
-    background-image: url(../../assets/IMG_1950.png);
+    background-image: url(../../assets/image-1.jpg);
 }
 .room-info p{
     font-size: 13px;
@@ -156,19 +156,19 @@
     transform: translateY(-10px);
 } */
 .roompropss-div{
-    background-image: url(../../assets/IMG_9638.jpg);
+    background-image: url(../../assets/tahitihotel.jpg);
 }
 .roompropsss-div{
-    background-image: url(../../assets/IMG_9682.jpg);
+    background-image: url(../../assets/ukhotel.jpg);
 }
 .roompropssss-div{
-    background-image: url(../../assets/IMG_9633.jpg);
+    background-image: url(../../assets/room-1.jpeg);
 }
 .roompropsssss-div{
-    background-image: url(../../assets/IMG_9599.jpg);
+    background-image: url(../../assets/francehotel.jpg);
 }
 .roompropssssss-div{
-    background-image: url(../../assets/IMG_9603.jpg);
+    background-image: url(../../assets/image-2.jpg);
 }
 .overlays{
     position: absolute;
